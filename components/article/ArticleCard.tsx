@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { Bookmark, BookmarkCheck, Clock, Heart } from "lucide-react";
+import { Bookmark, BookmarkCheck, Clock, ExternalLink, Heart } from "lucide-react";
 import type { Article } from "@/types";
 import { cn } from "@/lib/cn";
 import { timeAgo, formatNumber } from "@/lib/format";
@@ -8,10 +8,39 @@ import { useAppDispatch, useAppSelector } from "@/store";
 import { toggleBookmark, toggleLike } from "@/store/slices/bookmarksSlice";
 import { getPublisherById } from "@/lib/mockBaseQuery";
 import { AIChips } from "./AIChips";
+import { SpeakButton } from "./SpeakButton";
 import { LiveBadge } from "@/components/ui/LiveBadge";
 import { Crown } from "lucide-react";
 
 type Variant = "compact" | "featured" | "list";
+
+function CardLink({
+  article,
+  className,
+  children
+}: {
+  article: Article;
+  className: string;
+  children: React.ReactNode;
+}) {
+  if (article.sourceUrl) {
+    return (
+      <a
+        href={article.sourceUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        className={className}
+      >
+        {children}
+      </a>
+    );
+  }
+  return (
+    <Link href={`/article/${article.id}`} className={className}>
+      {children}
+    </Link>
+  );
+}
 
 export function ArticleCard({
   article,
@@ -38,8 +67,8 @@ export function ArticleCard({
 
   if (variant === "featured") {
     return (
-      <Link
-        href={`/article/${article.id}`}
+      <CardLink
+        article={article}
         className="lift-card group relative block overflow-hidden rounded-2xl border bg-[rgb(var(--card))]"
       >
         <div className="relative aspect-[16/9] overflow-hidden">
@@ -58,6 +87,9 @@ export function ArticleCard({
               </span>
             )}
           </div>
+          <div className="absolute right-3 top-3">
+            <SpeakButton article={article} tone="dark" />
+          </div>
           <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 to-transparent p-5 text-white">
             <div className="mb-2 flex items-center gap-2 text-xs">
               <span className="rounded-full bg-white/15 px-2 py-0.5 backdrop-blur">
@@ -65,6 +97,12 @@ export function ArticleCard({
               </span>
               <span>·</span>
               <span>{timeAgo(article.publishedAt)}</span>
+              {article.sourceUrl && (
+                <span className="inline-flex items-center gap-1 text-white/80">
+                  <span>·</span>
+                  <ExternalLink className="h-3 w-3" />
+                </span>
+              )}
             </div>
             <h2 className="text-balance text-2xl font-bold leading-tight">
               {article.title}
@@ -74,14 +112,14 @@ export function ArticleCard({
             </p>
           </div>
         </div>
-      </Link>
+      </CardLink>
     );
   }
 
   if (variant === "list") {
     return (
-      <Link
-        href={`/article/${article.id}`}
+      <CardLink
+        article={article}
         className="group flex gap-4 rounded-xl border bg-[rgb(var(--card))] p-3 hover:bg-neutral-50 dark:hover:bg-neutral-900"
       >
         <img
@@ -105,6 +143,12 @@ export function ArticleCard({
             <span className="inline-flex items-center gap-1">
               <Clock className="h-3 w-3" /> {article.readingMinutes}m
             </span>
+            {article.sourceUrl && (
+              <span className="inline-flex items-center gap-1 text-neutral-400">
+                <span>·</span>
+                <ExternalLink className="h-3 w-3" />
+              </span>
+            )}
           </div>
           <h3 className="line-clamp-2 font-semibold leading-snug group-hover:text-brand-600">
             {article.title}
@@ -113,7 +157,7 @@ export function ArticleCard({
             {article.summary}
           </p>
         </div>
-        <div className="flex flex-col items-end justify-between">
+        <div className="flex flex-col items-end justify-between gap-2">
           <button
             onClick={onBookmark}
             aria-label={bookmarked ? "Remove bookmark" : "Bookmark"}
@@ -125,15 +169,16 @@ export function ArticleCard({
               <Bookmark className="h-4 w-4" />
             )}
           </button>
+          <SpeakButton article={article} />
         </div>
-      </Link>
+      </CardLink>
     );
   }
 
   // compact
   return (
-    <Link
-      href={`/article/${article.id}`}
+    <CardLink
+      article={article}
       className="lift-card group flex flex-col overflow-hidden rounded-2xl border bg-[rgb(var(--card))]"
     >
       <div className="relative aspect-[16/9] overflow-hidden">
@@ -143,17 +188,20 @@ export function ArticleCard({
           loading="lazy"
           className="zoom-img h-full w-full object-cover"
         />
-        <button
-          onClick={onBookmark}
-          aria-label={bookmarked ? "Remove bookmark" : "Bookmark"}
-          className="absolute right-2 top-2 rounded-full bg-black/40 p-2 text-white backdrop-blur hover:bg-black/60"
-        >
-          {bookmarked ? (
-            <BookmarkCheck className="h-4 w-4" />
-          ) : (
-            <Bookmark className="h-4 w-4" />
-          )}
-        </button>
+        <div className="absolute right-2 top-2 flex items-center gap-1.5">
+          <SpeakButton article={article} tone="dark" />
+          <button
+            onClick={onBookmark}
+            aria-label={bookmarked ? "Remove bookmark" : "Bookmark"}
+            className="rounded-full bg-black/40 p-2 text-white backdrop-blur hover:bg-black/60"
+          >
+            {bookmarked ? (
+              <BookmarkCheck className="h-4 w-4" />
+            ) : (
+              <Bookmark className="h-4 w-4" />
+            )}
+          </button>
+        </div>
       </div>
       <div className="flex flex-1 flex-col gap-2 p-4">
         <div className="flex flex-wrap items-center gap-2 text-[11px] text-neutral-500">
@@ -171,6 +219,12 @@ export function ArticleCard({
           <span className="inline-flex items-center gap-1">
             <Clock className="h-3 w-3" /> {article.readingMinutes}m
           </span>
+          {article.sourceUrl && (
+            <span className="inline-flex items-center gap-1 text-neutral-400">
+              <span>·</span>
+              <ExternalLink className="h-3 w-3" />
+            </span>
+          )}
         </div>
         <h3 className="line-clamp-2 text-base font-semibold leading-snug group-hover:text-brand-600">
           {article.title}
@@ -193,6 +247,6 @@ export function ArticleCard({
           </button>
         </div>
       </div>
-    </Link>
+    </CardLink>
   );
 }

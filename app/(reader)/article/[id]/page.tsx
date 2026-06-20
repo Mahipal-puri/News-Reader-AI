@@ -16,6 +16,7 @@ import { setRole } from "@/store/slices/authSlice";
 import { Button } from "@/components/ui/Button";
 import { LiveBadge } from "@/components/ui/LiveBadge";
 import { AIPanel } from "@/components/ai/AIPanel";
+import { SpeakInline } from "@/components/ai/SpeakInline";
 import { CommentThread } from "@/components/article/CommentThread";
 import { ArticleGrid } from "@/components/article/ArticleList";
 import { AIChips } from "@/components/article/AIChips";
@@ -169,6 +170,15 @@ export default function ArticlePage() {
             </section>
           )}
 
+          <div className="mb-3 flex items-center justify-between gap-3">
+            <h2 className="text-xs font-semibold uppercase tracking-wider text-neutral-500">
+              Article
+            </h2>
+            <SpeakInline
+              text={`${article.title}. ${article.summary} ${visibleParagraphs.join(" ")}`}
+              label="Listen"
+            />
+          </div>
           <div className="prose-news relative max-w-none text-neutral-800 dark:text-neutral-200">
             {visibleParagraphs.map((p, i) => (
               <p key={i}>{p}</p>

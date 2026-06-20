@@ -57,6 +57,8 @@ export type Article = {
   premium?: boolean;
   isLive?: boolean;
   liveUpdates?: LiveUpdate[];
+  sourceUrl?: string;
+  provider?: "newsapi" | "gnews" | "currents";
 };
 
 export type LiveUpdate = {

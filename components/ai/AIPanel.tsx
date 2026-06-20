@@ -7,6 +7,7 @@ import { fakeSummary } from "@/lib/ai/fakeSummary";
 import { ChatWithNews } from "./ChatWithNews";
 import { TranslateMenu } from "./TranslateMenu";
 import { VoiceReader } from "./VoiceReader";
+import { SpeakInline } from "./SpeakInline";
 
 const AI_TABS = ["summary", "bullets", "takeaways", "chat", "translate", "listen"] as const;
 type AITab = (typeof AI_TABS)[number];
@@ -101,17 +102,28 @@ function SummaryView({
       </div>
     );
   }
-  if (Array.isArray(result)) {
-    return (
-      <ul className="space-y-2 text-sm leading-relaxed">
-        {result.map((b, i) => (
-          <li key={i} className="flex gap-2">
-            <span className="text-brand-600">•</span>
-            <span>{b}</span>
-          </li>
-        ))}
-      </ul>
-    );
-  }
-  return <p className="text-sm leading-relaxed">{result}</p>;
+
+  const speakable = Array.isArray(result)
+    ? result.join(". ")
+    : (result ?? "");
+
+  return (
+    <div className="space-y-3">
+      <div className="flex justify-end">
+        <SpeakInline text={speakable} />
+      </div>
+      {Array.isArray(result) ? (
+        <ul className="space-y-2 text-sm leading-relaxed">
+          {result.map((b, i) => (
+            <li key={i} className="flex gap-2">
+              <span className="text-brand-600">•</span>
+              <span>{b}</span>
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <p className="text-sm leading-relaxed">{result}</p>
+      )}
+    </div>
+  );
 }

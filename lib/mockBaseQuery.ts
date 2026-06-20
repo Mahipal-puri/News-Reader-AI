@@ -24,6 +24,33 @@ const wait = (ms = 150) => new Promise<void>((resolve) => setTimeout(resolve, ms
 const sortByDateDesc = (a: Article, b: Article) =>
   new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime();
 
+// Browser-side helper: call our Next.js API route to pull live articles
+// merged from NewsAPI / GNews / Currents. Falls back to [] on any failure
+// so callers can blend with mock data without errors. SSR-safe: we only
+// fetch when window exists.
+const LIVE_TTL_MS = 5 * 60 * 1000;
+let liveCache: { at: number; articles: Article[] } | null = null;
+
+async function fetchLiveBrowser(category?: string): Promise<Article[]> {
+  if (typeof window === "undefined") return [];
+  const now = Date.now();
+  if (liveCache && now - liveCache.at < LIVE_TTL_MS) {
+    return category
+      ? liveCache.articles.filter((a) => a.category === category)
+      : liveCache.articles;
+  }
+  try {
+    const res = await fetch("/api/news/feed", { cache: "no-store" });
+    if (!res.ok) return [];
+    const data = (await res.json()) as { articles?: Article[] };
+    const list = data.articles ?? [];
+    liveCache = { at: now, articles: list };
+    return category ? list.filter((a) => a.category === category) : list;
+  } catch {
+    return [];
+  }
+}
+
 export type MockRequest =
   | { url: "feed"; params: FeedQuery }
   | { url: "article"; params: { id: string } }
@@ -41,7 +68,8 @@ export const mockBaseQuery: BaseQueryFn<MockRequest, unknown, { message: string 
     switch (req.url) {
       case "feed": {
         const { topics = [], page = 1, pageSize = 12 } = req.params;
-        let pool = [...ARTICLES].sort(sortByDateDesc);
+        const live = await fetchLiveBrowser();
+        let pool = [...live, ...ARTICLES].sort(sortByDateDesc);
         if (topics.length) {
           const set = new Set(topics);
           const liked = pool.filter(
@@ -113,9 +141,9 @@ export const mockBaseQuery: BaseQueryFn<MockRequest, unknown, { message: string 
       case "category": {
         const { slug, page = 1 } = req.params;
         const pageSize = 12;
-        const pool = ARTICLES.filter((a) => a.category === slug).sort(
-          sortByDateDesc
-        );
+        const live = await fetchLiveBrowser(slug);
+        const mock = ARTICLES.filter((a) => a.category === slug);
+        const pool = [...live, ...mock].sort(sortByDateDesc);
         const start = (page - 1) * pageSize;
         return {
           data: {
