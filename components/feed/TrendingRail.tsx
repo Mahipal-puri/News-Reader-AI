@@ -7,7 +7,7 @@ export function TrendingRail() {
   const { data } = useGetTrendingQuery();
   if (!data?.trending?.length) return null;
   return (
-    <div className="rounded-2xl border bg-[rgb(var(--card))] p-4">
+    <div id="trending" className="scroll-mt-24 rounded-2xl border bg-[rgb(var(--card))] p-4">
       <div className="mb-3 flex items-center gap-2">
         <TrendingUp className="h-4 w-4 text-brand-600" />
         <h3 className="text-sm font-semibold uppercase tracking-wider text-neutral-500">

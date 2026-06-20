@@ -8,16 +8,35 @@ import { ChatWithNews } from "./ChatWithNews";
 import { TranslateMenu } from "./TranslateMenu";
 import { VoiceReader } from "./VoiceReader";
 
+const AI_TABS = ["summary", "bullets", "takeaways", "chat", "translate", "listen"] as const;
+type AITab = (typeof AI_TABS)[number];
+
 export function AIPanel({ article }: { article: Article }) {
+  const [tab, setTab] = useState<AITab>("summary");
+
+  useEffect(() => {
+    const sync = () => {
+      const h = window.location.hash.replace("#", "");
+      if (AI_TABS.includes(h as AITab)) {
+        setTab(h as AITab);
+        const el = document.getElementById("ai-panel");
+        el?.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    };
+    sync();
+    window.addEventListener("hashchange", sync);
+    return () => window.removeEventListener("hashchange", sync);
+  }, []);
+
   return (
-    <div className="rounded-2xl border bg-[rgb(var(--card))] p-4">
+    <div id="ai-panel" className="rounded-2xl border bg-[rgb(var(--card))] p-4">
       <div className="mb-3 flex items-center gap-2">
         <Sparkles className="h-4 w-4 text-brand-600" />
         <h3 className="text-sm font-semibold uppercase tracking-wider text-neutral-500">
           AI Assistant
         </h3>
       </div>
-      <Tabs defaultValue="summary">
+      <Tabs defaultValue="summary" value={tab} onValueChange={(v) => setTab(v as AITab)}>
         <TabsList>
           <TabsTrigger value="summary">Summary</TabsTrigger>
           <TabsTrigger value="bullets">Bullets</TabsTrigger>

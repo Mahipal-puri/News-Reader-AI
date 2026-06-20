@@ -18,32 +18,44 @@ const FEATURES = [
   {
     icon: Sparkles,
     title: "AI Summaries",
-    body: "Short, bullets, or key takeaways — fit the story to the time you have."
+    body: "Short, bullets, or key takeaways — fit the story to the time you have.",
+    href: "/article/a1#summary",
+    cta: "Try a summary"
   },
   {
     icon: Headphones,
     title: "Voice Reader",
-    body: "Listen to any article hands-free with adjustable voices and speed."
+    body: "Listen to any article hands-free with adjustable voices and speed.",
+    href: "/article/a1#listen",
+    cta: "Listen now"
   },
   {
     icon: Languages,
     title: "Translate",
-    body: "Read across languages in one tap. Spanish and Hindi out of the box."
+    body: "Read across languages in one tap. Spanish and Hindi out of the box.",
+    href: "/article/a1#translate",
+    cta: "Translate a story"
   },
   {
     icon: TrendingUp,
     title: "Trending Topics",
-    body: "Surface what the world is reading — across categories."
+    body: "Surface what the world is reading — across categories.",
+    href: "/home#trending",
+    cta: "See what's trending"
   },
   {
     icon: Bookmark,
     title: "Bookmarks & Lists",
-    body: "Save articles, organize collections, build your reading list."
+    body: "Save articles, organize collections, build your reading list.",
+    href: "/bookmarks",
+    cta: "Open bookmarks"
   },
   {
     icon: Bell,
     title: "Smart Alerts",
-    body: "Breaking news, daily briefings, and per-topic notifications."
+    body: "Breaking news, daily briefings, and per-topic notifications.",
+    href: "/notifications",
+    cta: "View alerts"
   }
 ];
 
@@ -170,16 +182,22 @@ export default function LandingPage() {
             {FEATURES.map((f) => {
               const Icon = f.icon;
               return (
-                <div
+                <Link
                   key={f.title}
-                  className="lift-card rounded-2xl border bg-[rgb(var(--card))] p-5"
+                  href={f.href}
+                  className="lift-card group rounded-2xl border bg-[rgb(var(--card))] p-5 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-600"
+                  aria-label={`${f.title} — ${f.cta}`}
                 >
                   <div className="grid h-10 w-10 place-items-center rounded-xl bg-brand-50 text-brand-600 dark:bg-brand-900/40">
                     <Icon className="h-5 w-5" />
                   </div>
                   <h3 className="mt-3 font-semibold">{f.title}</h3>
                   <p className="mt-1 text-sm text-neutral-500">{f.body}</p>
-                </div>
+                  <span className="mt-3 inline-flex items-center gap-1 text-xs font-medium text-brand-600">
+                    {f.cta}
+                    <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5" />
+                  </span>
+                </Link>
               );
             })}
           </div>

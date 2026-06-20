@@ -282,6 +282,8 @@ Build a modern, scalable, intelligent news ecosystem that delivers relevant, unb
 Each user request produces a dedicated doc under [`docs/`](docs/). They link
 back here. Newest first.
 
+- **2026-06-20** — [10 · Landing feature cards are now live links](docs/10-landing-feature-links.md) — All 6 cards on the landing page (AI Summaries, Voice Reader, Translate, Trending Topics, Bookmarks & Lists, Smart Alerts) are now clickable; AI cards deep-link to the right tab via URL hash (`/article/a1#listen`, etc.).
+- **2026-06-20** — [09 · Git init + first push to GitHub](docs/09-git-init-and-push.md) — Initialized the repo on `main`, hardened `.gitignore`, pushed commit `3fb274a` (90 files) to `Mahipal-puri/News-Reader-AI` as the first commit.
 - **2026-06-20** — [08 · Indian Express Tier 1 features](docs/08-indianexpress-tier1.md) — Shipped breaking-news ticker, LIVE article type (badge + updates feed on `a5` & `a11`), Premium paywall preview (locks `a4` & `a8` for non-premium), Most Read sidebar, WhatsApp share menu.
 - **2026-06-20** — [07 · Indian Express feature research](docs/07-indianexpress-feature-research.md) — Researched indianexpress.com patterns and proposed a three-tier roadmap (ticker, LIVE, paywall preview, city editions, Express Shorts, etc.) mapped against what we already have.
 - **2026-06-20** — [06 · Reporter, Sub-Admin, Super-Admin roles](docs/06-extended-roles.md) — Extended role model with three new roles; Settings now lets you switch into any of the eight roles and see its capabilities.
