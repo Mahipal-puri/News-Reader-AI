@@ -1,0 +1,1223 @@
+[
+  {
+    "id": "a1",
+    "slug": "global-summit-climate-pact",
+    "title": "Global summit closes with sweeping climate pact, 92 nations on board",
+    "summary": "Delegates from 92 countries signed a binding pledge to cap emissions by 2032, marking the most ambitious climate agreement in a decade.",
+    "bulletSummary": [
+      "92 countries signed the binding emissions cap.",
+      "Target year for the cap is 2032, ten years earlier than prior drafts.",
+      "$140B fund earmarked for low-income nations to transition.",
+      "Three major emitters abstained but pledged side commitments."
+    ],
+    "keyTakeaways": [
+      "The pact is binding rather than voluntary, raising the floor for follow-through.",
+      "Funding for the Global South is the largest single line in any climate accord to date.",
+      "Abstentions from key economies will shape next year's bilateral talks."
+    ],
+    "body": "Delegates from ninety-two nations closed an intense two-week summit on Tuesday with a binding climate pact that pulls forward the global emissions cap by nearly a decade. The agreement, hammered out in two overnight negotiating sessions, commits signatories to net-zero growth in industrial output by 2032 and creates a $140 billion transition fund for low- and middle-income economies.\n\nNegotiators described the closing hours as the most difficult of the conference. A draft circulated Sunday faced strong objections from three of the world's ten largest emitters, who argued the timeline failed to account for ongoing energy security pressures. By Monday evening those countries had withdrawn formal objections, but they declined to sign the main pact and instead announced parallel commitments expected to be reviewed at next year's session.\n\nThe transition fund will be administered by an independent secretariat, with disbursements indexed to verifiable emissions reductions rather than promised reductions. Officials called the verification clause the linchpin of the deal: without it, several mid-tier economies had threatened to walk.\n\nObservers from civil society groups offered measured praise. \"The text is stronger than we expected, weaker than we needed,\" said one analyst attending her ninth such summit. \"But binding language and an enforcement secretariat is a real shift.\"\n\nImplementation begins in stages over the next eighteen months. Domestic legislation in the signatory countries will determine how aggressively the pact bites in practice.",
+    "category": "world",
+    "tags": ["climate", "summit", "policy"],
+    "publisherId": "p1",
+    "authorName": "Hana Okafor",
+    "imageUrl": "https://picsum.photos/seed/a1/1200/720",
+    "publishedAt": "2026-06-18T09:14:00Z",
+    "readingMinutes": 5,
+    "sentiment": "positive",
+    "biasScore": 0.05,
+    "language": "en",
+    "translations": {
+      "es": { "title": "Cumbre global cierra con un amplio pacto climático, 92 naciones a bordo", "summary": "Delegados de 92 países firmaron un compromiso vinculante para limitar las emisiones hacia 2032." },
+      "hi": { "title": "वैश्विक शिखर सम्मेलन में व्यापक जलवायु समझौता, 92 देश शामिल", "summary": "92 देशों के प्रतिनिधियों ने 2032 तक उत्सर्जन सीमित करने का बाध्यकारी संकल्प लिया।" }
+    },
+    "likes": 1248,
+    "views": 38214
+  },
+  {
+    "id": "a2",
+    "slug": "open-source-llm-passes-major-benchmark",
+    "title": "An open-source model just topped a leading reasoning benchmark for the first time",
+    "summary": "A 70B-parameter open-source model edged out the best closed labs on a widely cited reasoning benchmark, intensifying the open vs. closed debate.",
+    "bulletSummary": [
+      "Open model scored 0.7 points above the top closed model.",
+      "Inference cost is roughly one-eighth of the closed leader.",
+      "Independent reviewers reproduced the score within 24 hours.",
+      "Training data composition remains partially undisclosed."
+    ],
+    "keyTakeaways": [
+      "Open vs. closed gap on hard reasoning has effectively closed at this scale.",
+      "Cost efficiency, not raw score, may matter more for downstream deployments.",
+      "Data transparency continues to lag capability disclosures."
+    ],
+    "body": "For the first time in the benchmark's history, an openly released language model has topped the leaderboard on hard reasoning, beating the best proprietary system by less than a point. The result, reproduced by two independent labs within twenty-four hours of release, lands in the middle of a busy industry week.\n\nThe model was trained on a mix of public and licensed corpora over an eight-week run on roughly five thousand accelerators. The release notes describe a refined reinforcement learning approach combined with a curated math and code dataset.\n\nWhile the benchmark score grabbed headlines, several practitioners argued the inference economics were the more significant story. Running the open model at production scale costs roughly one-eighth of the closed leader, according to vendor quotes circulating among engineering teams.\n\nNot everyone is convinced the underlying capabilities are equal. The closed labs argue that benchmark optimization is now a separate skill from general usefulness. The open model's authors counter that their training mix was designed against held-out tasks the benchmark designers had never released publicly.\n\nWhat is clear is that the cycle from a closed-lab capability to an open one keeps shrinking. Two years ago the gap was measured in years; this week it was measured in points.",
+    "category": "technology",
+    "tags": ["ai", "open-source", "benchmarks"],
+    "publisherId": "p2",
+    "authorName": "Diego Marín",
+    "imageUrl": "https://picsum.photos/seed/a2/1200/720",
+    "publishedAt": "2026-06-18T14:02:00Z",
+    "readingMinutes": 4,
+    "sentiment": "positive",
+    "biasScore": 0.1,
+    "language": "en",
+    "likes": 2410,
+    "views": 71203
+  },
+  {
+    "id": "a3",
+    "slug": "central-bank-holds-rates-signals-cuts",
+    "title": "Central bank holds rates steady but signals cuts ahead",
+    "summary": "Policymakers left the benchmark rate unchanged but added new language pointing toward easing in the second half.",
+    "bulletSummary": [
+      "Benchmark rate held at 4.25%.",
+      "Statement added 'measured easing' language.",
+      "Markets are now pricing in two cuts by year-end.",
+      "Inflation expectations remain anchored."
+    ],
+    "keyTakeaways": [
+      "Forward guidance is doing more work than the rate decision itself.",
+      "Markets re-priced fast; the curve flattened within minutes.",
+      "Watch core services inflation as the deciding indicator."
+    ],
+    "body": "The central bank held its benchmark rate unchanged on Wednesday at 4.25 percent, in line with consensus. But a single new sentence in the policy statement — describing a path of 'measured easing' should incoming data confirm the disinflation trend — was enough to move markets.\n\nThe two-year yield fell sharply in the minutes after release, while equities ticked higher into the close. Futures now price in roughly two quarter-point cuts before year-end, a meaningful repricing from the prior week.\n\nAt the press conference, the chair emphasized the conditionality of the language. 'Measured does not mean automatic,' she said. 'We need to see services inflation continue to moderate.' Reporters pressed on the timing of the first cut; the chair declined to commit.\n\nEconomists were divided. Some described the shift as overdue given the trajectory of core inflation; others worried that easing too soon could undo months of careful credibility-building. Most agreed that forward guidance now matters more than any single decision.\n\nThe next meeting is six weeks away. Between now and then, two inflation prints and a labor report will decide whether the easing path arrives on schedule.",
+    "category": "finance",
+    "tags": ["central-bank", "rates", "macro"],
+    "publisherId": "p10",
+    "authorName": "Priya Kapoor",
+    "imageUrl": "https://picsum.photos/seed/a3/1200/720",
+    "publishedAt": "2026-06-17T20:30:00Z",
+    "readingMinutes": 4,
+    "sentiment": "neutral",
+    "biasScore": 0.0,
+    "language": "en",
+    "likes": 614,
+    "views": 24902
+  },
+  {
+    "id": "a4",
+    "slug": "fusion-startup-net-energy-gain",
+    "title": "A fusion startup claims a sustained net-energy gain in lab tests",
+    "summary": "A privately funded fusion startup says it achieved a six-second net-energy reaction, narrowing the gap to engineering viability.",
+    "bulletSummary": [
+      "Six-second sustained reaction, reproduced three times.",
+      "Q-value reported at 1.4, peer review pending.",
+      "Engineering breakeven still considered years away.",
+      "Investors added a $300M follow-on round on the news."
+    ],
+    "keyTakeaways": [
+      "Sustained net gain is different from a single-pulse demonstration.",
+      "Q-value of 1.4 is well below what a commercial plant requires.",
+      "Capital markets are already moving ahead of peer review."
+    ],
+    "body": "A privately funded fusion startup announced on Thursday what it described as a sustained net-energy reaction lasting six seconds, with a reported Q-value of 1.4. The result, if confirmed by peer review, would mark a notable step beyond previous single-pulse demonstrations.\n\nThe company says the experiment was repeated three times within the same week, with consistent diagnostics. Independent verification will require access to raw data and replication on similar hardware — a process that may take months.\n\nFusion researchers welcomed the news cautiously. 'A sustained reaction is qualitatively different from a brief pulse,' one veteran physicist said. 'But Q above one in a lab does not mean Q above one for a plant. There are large factors of inefficiency between the two.'\n\nInvestors moved faster than reviewers. A $300 million follow-on round closed within twenty-four hours of the announcement, valuing the company at a level that surprised even some industry watchers. The CEO framed the milestone as a derisking event, not a victory lap.\n\nThe broader fusion field has spent a decade attracting private capital after long depending on government labs. This week's news will likely accelerate that shift further.",
+    "category": "science",
+    "tags": ["fusion", "energy", "startups"],
+    "publisherId": "p6",
+    "authorName": "Wei Chen",
+    "imageUrl": "https://picsum.photos/seed/a4/1200/720",
+    "publishedAt": "2026-06-17T11:45:00Z",
+    "readingMinutes": 5,
+    "sentiment": "positive",
+    "biasScore": 0.0,
+    "language": "en",
+    "likes": 3102,
+    "views": 88521,
+    "premium": true
+  },
+  {
+    "id": "a5",
+    "slug": "premier-league-title-decided-final-day",
+    "title": "Premier League title goes to the wire on a chaotic final day",
+    "summary": "Two clubs entered the final matchday level on points; only one walked away with the trophy after late goals in both fixtures.",
+    "bulletSummary": [
+      "Title decided in stoppage time.",
+      "Goal difference would have separated the clubs.",
+      "Both top scorers added to their tallies.",
+      "Champions League race also decided on the same day."
+    ],
+    "keyTakeaways": [
+      "Goal difference rules turned out to be moot — the actual margin was a single late goal.",
+      "Late-season tactical adjustments mattered as much as individual brilliance.",
+      "Three teams' summer plans now hinge on the European qualification picture."
+    ],
+    "body": "The Premier League title was decided in stoppage time on Sunday after a chaotic final day in which both contenders found themselves a goal behind at different points. The eventual champions converted a free-kick in the ninety-fourth minute to settle the matter.\n\nThe two clubs had entered the day level on points, with a marginal advantage in goal difference to the team playing away from home. That gap, it turned out, was moot: the actual margin between champion and runner-up was a single late goal in a different stadium.\n\nBoth top scorers added to their tallies. The Golden Boot race, however, was decided by a tap-in rather than the spectacular goals that had defined the season for both players.\n\nDownstream from the title race, three clubs jockeyed for European qualification, with two final-day results flipping spots in the table. Summer transfer plans across the league will be shaped by which competitions teams find themselves in.\n\nFor neutral fans, it was the kind of finale the league markets to the world. For supporters of the runners-up, it was a long bus ride home.",
+    "category": "sports",
+    "tags": ["football", "premier-league"],
+    "publisherId": "p4",
+    "authorName": "Marcus Hale",
+    "imageUrl": "https://picsum.photos/seed/a5/1200/720",
+    "publishedAt": "2026-06-16T19:00:00Z",
+    "readingMinutes": 4,
+    "sentiment": "positive",
+    "biasScore": 0.0,
+    "language": "en",
+    "likes": 4815,
+    "views": 122003,
+    "isLive": true,
+    "liveUpdates": [
+      { "time": "2026-06-16T19:34:00Z", "text": "FULL TIME — Title decided. Champions confirmed by a single late goal across the two grounds." },
+      { "time": "2026-06-16T19:32:00Z", "text": "94' — Free-kick converted. Bench erupts. Goal difference no longer matters." },
+      { "time": "2026-06-16T19:18:00Z", "text": "80' — Other ground now 2-2. Title swings on a knife's edge." },
+      { "time": "2026-06-16T19:02:00Z", "text": "65' — Substitutions on. Manager throws on a third forward." },
+      { "time": "2026-06-16T18:45:00Z", "text": "HALF TIME — Both fixtures 1-1. Goal difference still the deciding factor." }
+    ]
+  },
+  {
+    "id": "a6",
+    "slug": "studio-strike-streaming-deal",
+    "title": "Hollywood guilds reach landmark streaming residuals deal",
+    "summary": "After months of negotiations, a framework agreement reshapes how streaming residuals are calculated for actors and writers.",
+    "bulletSummary": [
+      "Residuals now indexed to subscriber tier and watch time.",
+      "Minimums increased by roughly 11% over three years.",
+      "AI usage requires written performer consent.",
+      "Deal still requires guild membership ratification."
+    ],
+    "keyTakeaways": [
+      "Residuals tied to engagement metrics is a structural shift.",
+      "The AI consent clause is precedent-setting for other creative industries.",
+      "Ratification is not guaranteed, but the leadership is endorsing the deal."
+    ],
+    "body": "Hollywood's major guilds and the streaming studios reached a framework agreement late Friday that restructures how residual payments are calculated, ties compensation to engagement metrics, and requires explicit performer consent for AI-driven uses of their likenesses.\n\nThe deal landed after months of tense negotiations punctuated by short work stoppages. Both sides have framed it as a turning point — though the guilds will still need to ratify the agreement through a membership vote that could yet derail it.\n\nThe most significant structural change is the link between residuals and a combination of subscriber tier and watch-time data. Past streaming contracts paid flat fees that ignored whether a show was actually being watched. The new structure shares the upside of hits more directly with the people who made them.\n\nThe AI clause has drawn attention well outside Hollywood. Performers must give explicit, written consent for any use of their voice or likeness in synthetic media; consent can be withdrawn at contract milestones. Lawyers in other creative industries are already studying the language.\n\nIf ratified, the agreement will run for three years and reopen for renegotiation in 2029.",
+    "category": "entertainment",
+    "tags": ["hollywood", "streaming", "labor"],
+    "publisherId": "p5",
+    "authorName": "Olivia Park",
+    "imageUrl": "https://picsum.photos/seed/a6/1200/720",
+    "publishedAt": "2026-06-15T22:11:00Z",
+    "readingMinutes": 4,
+    "sentiment": "positive",
+    "biasScore": -0.05,
+    "language": "en",
+    "likes": 1820,
+    "views": 50213
+  },
+  {
+    "id": "a7",
+    "slug": "crispr-trial-sickle-cell-five-year",
+    "title": "Five-year data shows CRISPR sickle-cell therapy holds up",
+    "summary": "Long-term results from a landmark gene-editing trial show durable benefits with manageable side effects.",
+    "bulletSummary": [
+      "Five-year follow-up on the original cohort.",
+      "Sustained reduction in vaso-occlusive crises.",
+      "No new safety signals beyond those known at year one.",
+      "Cost and access remain the binding constraints."
+    ],
+    "keyTakeaways": [
+      "Durability of a one-time gene therapy is no longer hypothetical for this indication.",
+      "Side-effect profile is now well-characterized.",
+      "The real bottleneck is delivery infrastructure, not science."
+    ],
+    "body": "Five-year follow-up data from a landmark CRISPR-based sickle-cell trial show that the one-time therapy continues to deliver substantial reductions in painful crises with no new safety signals beyond those identified in the first year.\n\nThe data, presented at a major hematology conference, cover the original cohort treated more than five years ago. Patients in the trial reported sustained improvements in quality of life, and clinicians described the side-effect profile as 'well-characterized.'\n\nThe scientific question of whether a gene-editing therapy could deliver durable benefit for this indication is, by most readings, now answered. The remaining questions are about access and delivery. The treatment requires specialized infrastructure that exists in only a handful of centers worldwide. Costs remain high, and insurance frameworks have not adapted to a one-time payment for a lifelong benefit.\n\nPatient advocates have begun pushing for outcomes-based payment models that spread the cost over the years of avoided crises. Several large insurers are reportedly piloting variants of this approach.\n\nFor the patients in the original cohort, the trial has, in their own words, 'given back a life.' Scaling that result to the millions of people living with the disease is the work of the next decade.",
+    "category": "health",
+    "tags": ["crispr", "genetics", "trials"],
+    "publisherId": "p7",
+    "authorName": "Sophie Bauer",
+    "imageUrl": "https://picsum.photos/seed/a7/1200/720",
+    "publishedAt": "2026-06-15T13:20:00Z",
+    "readingMinutes": 5,
+    "sentiment": "positive",
+    "biasScore": 0.05,
+    "language": "en",
+    "likes": 2901,
+    "views": 64020
+  },
+  {
+    "id": "a8",
+    "slug": "bitcoin-etf-flows-record-month",
+    "title": "Spot bitcoin ETFs see record monthly inflows as cycle resumes",
+    "summary": "Inflows into spot bitcoin ETFs topped $9B in May, surpassing the previous record set at launch.",
+    "bulletSummary": [
+      "$9.2B in net inflows in May.",
+      "Three issuers accounted for 70% of the volume.",
+      "Outflows from gold ETFs partially offset.",
+      "Macro setup includes easing rate expectations."
+    ],
+    "keyTakeaways": [
+      "Institutional adoption of bitcoin via ETFs is now structural, not narrative-driven.",
+      "Concentration among issuers may pose product risks if any single fund loses tracking.",
+      "The macro backdrop matters more than the typical four-year cycle framing."
+    ],
+    "body": "Spot bitcoin exchange-traded funds saw record monthly inflows in May, with $9.2 billion in net new money — surpassing the previous high set in the weeks after the funds launched. Three issuers accounted for roughly seventy percent of the flow.\n\nMarket participants attributed the surge to a combination of easing rate expectations and a maturing distribution pipeline through registered investment advisors, who had spent the past year completing due diligence. Several large platforms now include the products in model portfolios.\n\nOutflows from physical gold ETFs partially offset the rotation, in a pattern reminiscent of late 2024 dynamics. Analysts caution against drawing tight conclusions; the two products have different mandates and different holder bases.\n\nConcentration among issuers has drawn quiet concern from product structure specialists. If any single dominant fund were to lose tracking against the underlying, the secondary effects on prices and competing funds could be sharp.\n\nFor now, the cycle that some had declared dead is, by most readings, very much alive.",
+    "category": "crypto",
+    "tags": ["bitcoin", "etf", "markets"],
+    "publisherId": "p8",
+    "authorName": "Jamal Ito",
+    "imageUrl": "https://picsum.photos/seed/a8/1200/720",
+    "publishedAt": "2026-06-14T16:50:00Z",
+    "readingMinutes": 4,
+    "sentiment": "positive",
+    "biasScore": 0.1,
+    "language": "en",
+    "likes": 1730,
+    "views": 49021,
+    "premium": true
+  },
+  {
+    "id": "a9",
+    "slug": "seed-extension-rounds-dominate",
+    "title": "Seed-extension rounds are quietly becoming the dominant early-stage event",
+    "summary": "Data shows the median seed-to-Series A timeline has stretched from 18 to 28 months, with extension rounds filling the gap.",
+    "bulletSummary": [
+      "Median seed-to-A gap now 28 months.",
+      "Seed extensions account for 41% of all sub-$10M deals.",
+      "Valuation step-ups are smaller but more frequent.",
+      "Founders trade ownership for runway."
+    ],
+    "keyTakeaways": [
+      "The traditional Series A bar has effectively risen.",
+      "Extension structures favor existing investors with information advantages.",
+      "Founders who plan for two seeds end up healthier than those who don't."
+    ],
+    "body": "Across the early-stage venture market, the seed-to-Series A timeline has stretched dramatically. Data from a leading market tracker show the median gap has gone from eighteen months in 2021 to twenty-eight months today. Filling that gap is the seed-extension round, which now accounts for forty-one percent of all sub-ten-million-dollar deals.\n\nFounders describe the change in stark terms. 'You're not raising a Series A on twelve months of runway anymore,' one CEO said. 'You're raising an extension at month nine and trying to get the next one done at month twenty-four.'\n\nValuation step-ups in extensions are smaller than in priced A rounds, but they happen more frequently. The cumulative dilution is comparable; the path is just longer and bumpier.\n\nThe structure quietly advantages existing investors, who often lead extensions with information advantages over outsiders. For founders, that means choosing reserves-disciplined seed leads becomes a more consequential decision than it appeared a few years ago.\n\nThe upside, paradoxically, is that companies that survive the extended path reach Series A with more revenue, less burn, and better unit economics. The downside is that more never make it.",
+    "category": "startups",
+    "tags": ["venture", "seed", "fundraising"],
+    "publisherId": "p9",
+    "authorName": "Lena Hartmann",
+    "imageUrl": "https://picsum.photos/seed/a9/1200/720",
+    "publishedAt": "2026-06-13T09:30:00Z",
+    "readingMinutes": 4,
+    "sentiment": "neutral",
+    "biasScore": 0.0,
+    "language": "en",
+    "likes": 1102,
+    "views": 31022
+  },
+  {
+    "id": "a10",
+    "slug": "city-council-passes-housing-overhaul",
+    "title": "City council passes once-in-a-generation housing overhaul",
+    "summary": "After three years of debate, the council approved a zoning reform package that legalizes mid-rise housing on most residential lots.",
+    "bulletSummary": [
+      "Mid-rise housing now legal on 78% of residential lots.",
+      "Permit timelines capped at 90 days for most projects.",
+      "Affordability set-aside required above six units.",
+      "Implementation begins in 90 days."
+    ],
+    "keyTakeaways": [
+      "The biggest reform is the by-right timeline, not the upzoning itself.",
+      "Affordability requirements may slow some larger projects.",
+      "Watch implementation more than the headline vote — courts and rules will shape outcomes."
+    ],
+    "body": "After three years of public hearings, neighborhood meetings, and procedural delays, the city council passed a sweeping zoning overhaul on Tuesday evening by a margin of eleven to four. The reform legalizes mid-rise residential buildings on roughly seventy-eight percent of residential lots and caps permit timelines at ninety days for most projects.\n\nSupporters described the vote as a generational shift. Opponents argued the package will reshape neighborhood character without sufficient mitigation. Both sides agreed that the most consequential clause is the by-right permitting timeline rather than the upzoning itself: developers can now plan with predictable schedules for the first time in two decades.\n\nA new affordability set-aside applies to projects of six units or more. Critics on the pro-housing side argue it may discourage exactly the projects the reform is meant to enable; the council added a sunset review at year three to revisit the threshold.\n\nImplementation begins in ninety days. Expect a wave of permit filings in the first few weeks, followed by a long tail of court challenges and administrative refinements.\n\nReform of this scope is rare. Whether it works will be measured in housing starts and rents over the next five years, not in this week's vote count.",
+    "category": "local",
+    "tags": ["housing", "zoning", "policy"],
+    "publisherId": "p1",
+    "authorName": "Naomi Reyes",
+    "imageUrl": "https://picsum.photos/seed/a10/1200/720",
+    "publishedAt": "2026-06-12T23:45:00Z",
+    "readingMinutes": 5,
+    "sentiment": "positive",
+    "biasScore": -0.1,
+    "language": "en",
+    "likes": 982,
+    "views": 27510
+  },
+  {
+    "id": "a11",
+    "slug": "election-results-shift-coalition",
+    "title": "Election shifts ruling coalition in surprise upset",
+    "summary": "A smaller party's stronger-than-expected showing forces the ruling coalition into a difficult reshuffle.",
+    "bulletSummary": [
+      "Smaller party gained 14 seats.",
+      "Ruling coalition lost outright majority.",
+      "Negotiations expected to take three weeks.",
+      "Currency markets reacted modestly."
+    ],
+    "keyTakeaways": [
+      "The result was a polling-model failure as much as a political one.",
+      "Coalition math now demands an unusual partner.",
+      "Watch for cabinet position trades rather than policy reversals."
+    ],
+    "body": "A surprising surge for one of the smaller opposition parties has upended the ruling coalition's plans, forcing negotiations on a reshuffled government. Final tallies showed the party gaining fourteen seats, enough to deny the incumbent bloc an outright majority.\n\nPolling models had widely missed the shift. Post-election analyses pointed to under-sampled turnout in two suburban regions where the smaller party concentrated its ground campaign. The pattern echoed surprises seen in two other recent elections in the region.\n\nCoalition talks are expected to take three weeks. The incumbent bloc's most natural partners have committed to working with one another but will likely demand cabinet positions disproportionate to their seat count. Policy concessions are expected to be modest; cabinet trades are likely to be larger.\n\nCurrency markets reacted modestly. Sovereign spreads widened a few basis points before settling. Investors appear to be reading the result as a governance shift rather than a fiscal one.\n\nThe new government will take office no later than next month. Its first test will be the supplementary budget that has been waiting since spring.",
+    "category": "politics",
+    "tags": ["election", "coalition"],
+    "publisherId": "p1",
+    "authorName": "Tomás Aguilar",
+    "imageUrl": "https://picsum.photos/seed/a11/1200/720",
+    "publishedAt": "2026-06-11T18:00:00Z",
+    "readingMinutes": 4,
+    "sentiment": "neutral",
+    "biasScore": -0.05,
+    "language": "en",
+    "likes": 740,
+    "views": 21090,
+    "isLive": true,
+    "liveUpdates": [
+      { "time": "2026-06-11T18:42:00Z", "text": "Coalition talks scheduled to begin Wednesday morning at the parliamentary office." },
+      { "time": "2026-06-11T18:15:00Z", "text": "Currency desk: spreads have settled, modest widening only." },
+      { "time": "2026-06-11T18:00:00Z", "text": "Final tally confirmed — ruling bloc loses outright majority by 6 seats." },
+      { "time": "2026-06-11T17:35:00Z", "text": "Two suburban regions flip — first sign of the polling miss." }
+    ]
+  },
+  {
+    "id": "a12",
+    "slug": "university-introduces-ai-policy",
+    "title": "Top university introduces sweeping student AI policy",
+    "summary": "A leading university unveiled a campus-wide AI policy that combines disclosure requirements with course-by-course flexibility.",
+    "bulletSummary": [
+      "Disclosure of AI use required on all written work.",
+      "Faculty set per-course rules within a shared framework.",
+      "Detection tools deprecated in favor of process changes.",
+      "Workshops mandatory for incoming students."
+    ],
+    "keyTakeaways": [
+      "Disclosure plus course-level discretion is becoming the consensus shape of these policies.",
+      "Reliance on detection tools is fading as their accuracy has been challenged.",
+      "Workshops front-load expectations and reduce later disputes."
+    ],
+    "body": "One of the country's largest research universities has rolled out a campus-wide artificial intelligence policy that combines uniform disclosure expectations with course-by-course discretion for faculty. The framework, announced this week, takes effect at the start of the fall term.\n\nUnder the policy, students must disclose any meaningful use of generative AI tools on submitted work, with the specifics left to each course's syllabus. Some courses will continue to prohibit such tools entirely; others will encourage them as long as the contribution is documented.\n\nDetection tools have been quietly deprecated. After several high-profile false-positive cases the previous academic year, the university shifted toward process-based assessments — oral defenses, draft submissions, in-class writing — that better reveal student understanding regardless of which tools were used.\n\nIncoming students will attend a mandatory workshop in their first week covering both the mechanics of the disclosure system and the broader academic values it serves. The provost framed it as front-loading expectations to reduce disputes later.\n\nFaculty reactions are mixed but mostly supportive. A small number of departments have asked for additional course-design support; the university says funding for that is included in the rollout.",
+    "category": "education",
+    "tags": ["ai", "university", "policy"],
+    "publisherId": "p1",
+    "authorName": "Eleanor Whitcombe",
+    "imageUrl": "https://picsum.photos/seed/a12/1200/720",
+    "publishedAt": "2026-06-10T10:00:00Z",
+    "readingMinutes": 4,
+    "sentiment": "positive",
+    "biasScore": 0.0,
+    "language": "en",
+    "likes": 522,
+    "views": 14893
+  },
+  {
+    "id": "a13",
+    "slug": "electric-truck-cost-parity",
+    "title": "Electric trucks hit cost parity with diesel on a key fleet route",
+    "summary": "A widely cited fleet analysis finds total cost of ownership has reached parity on long-haul routes for the first time.",
+    "bulletSummary": [
+      "TCO parity reached on one of three reference routes.",
+      "Battery prices fell 19% year-over-year.",
+      "Charging infrastructure still limits some corridors.",
+      "Diesel's residual value advantage is narrowing."
+    ],
+    "keyTakeaways": [
+      "Parity on one route is not parity everywhere.",
+      "Infrastructure remains the binding constraint outside specific corridors.",
+      "Fleet replacement schedules will start to inflect in 2027."
+    ],
+    "body": "A fleet analysis released this week finds that on one of three reference long-haul routes, total cost of ownership for electric trucks has reached parity with diesel for the first time. The result reflects a nineteen percent year-over-year drop in battery prices and an expanding fast-charging network along the route in question.\n\nThe authors are careful to note that the result does not generalize. Two other reference routes — both with thinner charging infrastructure — still show diesel ahead on TCO. The route that flipped is one of the most densely instrumented corridors in the country.\n\nResidual values, long a structural advantage for diesel, are narrowing. Secondary markets for used electric tractors have begun to develop, and three large fleets reported successful sales of three- and four-year-old units this quarter.\n\nFleet operators say the math now matters because their replacement cycles are coming due. Decisions made in late 2026 and 2027 will lock in fleet composition for a decade.\n\nFor manufacturers, the result is a green light to push harder on the routes where infrastructure exists and to keep pressing public partners for buildout in the corridors where it doesn't.",
+    "category": "business",
+    "tags": ["ev", "trucking", "fleets"],
+    "publisherId": "p3",
+    "authorName": "Brennan Cole",
+    "imageUrl": "https://picsum.photos/seed/a13/1200/720",
+    "publishedAt": "2026-06-09T07:15:00Z",
+    "readingMinutes": 4,
+    "sentiment": "positive",
+    "biasScore": 0.05,
+    "language": "en",
+    "likes": 880,
+    "views": 22041
+  },
+  {
+    "id": "a14",
+    "slug": "tennis-grand-slam-comeback-final",
+    "title": "Veteran wins emotional Grand Slam title after two-year layoff",
+    "summary": "A former world number one completed a remarkable comeback by winning the title after returning from injury just six months ago.",
+    "bulletSummary": [
+      "Two-year injury layoff before this season.",
+      "First Grand Slam since the surgery.",
+      "Four-set final lasted nearly four hours.",
+      "Announces continuing on the tour."
+    ],
+    "keyTakeaways": [
+      "Modern injury rehab makes comebacks at thirty-three plausible.",
+      "Tactical adjustments mattered more than physical recovery.",
+      "Tour depth means winning a Slam requires defeating multiple top-ten players."
+    ],
+    "body": "A former world number one completed one of the more remarkable comebacks in recent memory on Sunday, winning a Grand Slam title less than a year after returning to competition from a layoff that many assumed would end his career. The four-set final lasted nearly four hours and ended in tears on court.\n\nThe player's coaching team described the path as a careful sequence of tactical adjustments — shorter points, more first-strike tennis, fewer of the long defensive rallies that had defined his earlier peak. The physical recovery was real but not unprecedented; the tactical re-tooling, his team said, is what made the result possible.\n\nThe draw was anything but kind. Three top-ten opponents in the second week meant the title required sustained level rather than a hot streak.\n\nIn his on-court speech the champion announced he would continue on tour. The next major is in three months.",
+    "category": "sports",
+    "tags": ["tennis", "grand-slam"],
+    "publisherId": "p4",
+    "authorName": "Camila Souza",
+    "imageUrl": "https://picsum.photos/seed/a14/1200/720",
+    "publishedAt": "2026-06-08T22:30:00Z",
+    "readingMinutes": 4,
+    "sentiment": "positive",
+    "biasScore": 0.0,
+    "language": "en",
+    "likes": 3450,
+    "views": 91202
+  },
+  {
+    "id": "a15",
+    "slug": "telescope-finds-earliest-galaxies",
+    "title": "Space telescope finds galaxies forming earlier than models predicted",
+    "summary": "New survey data identifies large galaxies at redshifts that challenge existing structure-formation models.",
+    "bulletSummary": [
+      "Galaxies identified at redshift higher than expected.",
+      "Mass estimates exceed predicted ranges.",
+      "Two competing theoretical frameworks now in tension.",
+      "Follow-up spectroscopy planned for next cycle."
+    ],
+    "keyTakeaways": [
+      "Either early-universe star formation was more efficient than thought, or measurement assumptions are wrong.",
+      "Spectroscopic confirmation is the next critical step.",
+      "Cosmology models will be revisited regardless of the outcome."
+    ],
+    "body": "A new survey from the latest-generation space telescope has identified large galaxies at redshifts higher than current structure-formation models predict — and their inferred masses exceed expected ranges by a meaningful margin. The result, posted this week, has touched off intense debate among cosmologists.\n\nTwo broad explanations are in play. The first is that early-universe star formation was substantially more efficient than current models assume, perhaps due to different dust conditions or metallicity. The second is that the photometric methods used to estimate redshifts and masses are systematically biased at these distances. Both possibilities have respected adherents.\n\nFollow-up spectroscopy is planned for the next observing cycle. Spectra will allow direct measurement of redshifts and far better constraints on stellar populations.\n\nWhichever way the question resolves, cosmology models will likely need revision. A surprise of this size is exactly what new telescopes are built to find — even if the implications take years to fully digest.",
+    "category": "science",
+    "tags": ["astronomy", "cosmology", "telescope"],
+    "publisherId": "p6",
+    "authorName": "Yui Tanaka",
+    "imageUrl": "https://picsum.photos/seed/a15/1200/720",
+    "publishedAt": "2026-06-07T15:00:00Z",
+    "readingMinutes": 5,
+    "sentiment": "neutral",
+    "biasScore": 0.0,
+    "language": "en",
+    "likes": 1632,
+    "views": 38901
+  },
+  {
+    "id": "a16",
+    "slug": "biggest-summer-blockbuster-opens",
+    "title": "Biggest summer blockbuster opens to mixed reviews, big numbers",
+    "summary": "Critics are split, but the opening weekend numbers shattered expectations for a non-franchise original.",
+    "bulletSummary": [
+      "$182M domestic opening weekend.",
+      "Critical reception split.",
+      "Sequel was greenlit on Monday morning.",
+      "International rollout staged over six weeks."
+    ],
+    "keyTakeaways": [
+      "Original IP can still open big with the right marketing.",
+      "Critical reception and commercial reception are now decoupled in the data.",
+      "Theaters needed this opening more than the studio did."
+    ],
+    "body": "Critics are split — but the audience is not. The summer's biggest non-franchise original opened to a $182 million domestic weekend, well past pre-release tracking and a clear signal that audiences will still turn out for original IP if the marketing is right.\n\nReviews ranged from rapturous to dismissive, often hinging on tonal expectations the trailers had set. The director, in interviews, embraced the divide. 'I'd rather make something that some people love than something everyone tolerates,' he said.\n\nA sequel was greenlit on Monday morning. The studio also announced a six-week staged international rollout designed to maximize word-of-mouth in major markets.\n\nTheaters, by most accounts, needed the opening more than the studio did. After a soft spring, distributors were watching this weekend closely for evidence that the summer slate would deliver. By Sunday night, they had it.\n\nWhether the film holds depends on the second weekend. Drops below forty percent would signal genuine staying power; steeper falls would tell a different story.",
+    "category": "entertainment",
+    "tags": ["movies", "boxoffice"],
+    "publisherId": "p5",
+    "authorName": "Devon Lee",
+    "imageUrl": "https://picsum.photos/seed/a16/1200/720",
+    "publishedAt": "2026-06-07T08:00:00Z",
+    "readingMinutes": 3,
+    "sentiment": "positive",
+    "biasScore": 0.0,
+    "language": "en",
+    "likes": 2104,
+    "views": 56021
+  },
+  {
+    "id": "a17",
+    "slug": "weight-loss-drug-supply-stabilizes",
+    "title": "Weight-loss drug supply finally stabilizes after a year of shortages",
+    "summary": "Manufacturer expansions and new entrants have eased supply constraints that had defined the market for over a year.",
+    "bulletSummary": [
+      "Two new factories online.",
+      "Compounded alternatives down 60% in volume.",
+      "Insurance coverage expanding case-by-case.",
+      "Long-term safety data continues to accumulate."
+    ],
+    "keyTakeaways": [
+      "Supply is no longer the binding constraint; coverage is.",
+      "Compounded alternatives lose volume as branded supply normalizes.",
+      "Coverage expansion will determine demand more than supply will."
+    ],
+    "body": "The persistent shortages that defined the weight-loss drug market for more than a year have substantially eased, according to pharmacy distribution data released this week. Two new manufacturing facilities are online, and competing entrants have expanded their share, taking pressure off the original maker.\n\nCompounded alternatives — which proliferated during the shortage and prompted regulatory action in several jurisdictions — have fallen sixty percent in volume as branded supply has normalized. The compounding pharmacies that grew rapidly during the shortage are now adjusting their business models.\n\nWith supply no longer the binding constraint, attention shifts to insurance coverage. Employers and insurers have been cautiously expanding coverage on a case-by-case basis, often gated to specific BMI thresholds or comorbidity patterns. How quickly coverage expands will likely determine demand more than supply will.\n\nLong-term safety data continues to accumulate. Two large registries have published interim results consistent with the original trial profile.\n\nFor patients who spent much of last year searching pharmacies and switching brands mid-treatment, the change is welcome. The next question is whether they can afford to stay on.",
+    "category": "health",
+    "tags": ["pharma", "weight-loss"],
+    "publisherId": "p7",
+    "authorName": "Aaron Goldstein",
+    "imageUrl": "https://picsum.photos/seed/a17/1200/720",
+    "publishedAt": "2026-06-06T12:40:00Z",
+    "readingMinutes": 4,
+    "sentiment": "positive",
+    "biasScore": 0.0,
+    "language": "en",
+    "likes": 1230,
+    "views": 33001
+  },
+  {
+    "id": "a18",
+    "slug": "ethereum-upgrade-cuts-fees",
+    "title": "Ethereum upgrade cuts fees and triggers L2 rotation",
+    "summary": "The latest scheduled upgrade went live with no incidents, cutting fees and reshuffling activity across Layer 2 networks.",
+    "bulletSummary": [
+      "Fees on top L2s down 30-50%.",
+      "Volume rotated between competing L2 ecosystems.",
+      "No reported security incidents during rollout.",
+      "Validator participation remained above target."
+    ],
+    "keyTakeaways": [
+      "Lower fees are good for users but compress L2 economics.",
+      "Activity rotation is now driven by app launches more than tech differentiation.",
+      "Successful upgrades reduce protocol risk premia visible in price."
+    ],
+    "body": "Ethereum's latest scheduled upgrade went live this week without incident, cutting fees on the largest Layer 2 networks by between thirty and fifty percent. Activity rotated noticeably between competing L2 ecosystems in the days that followed.\n\nThe fee reduction is structural rather than transient — driven by changes to how Layer 2s post data to the main chain. For users, the result is cheaper transactions and faster confirmation. For Layer 2 operators, however, lower fees compress already thin economics; some are exploring new revenue models.\n\nVolume rotation between L2 ecosystems followed app launches more than underlying tech differentiation. A new social application accumulated several hundred thousand users on one L2 within days, lifting that network's share. Competitors responded with grants and marketing rather than technical changes.\n\nNo security incidents were reported during the upgrade. Validator participation remained well above target throughout. Successful upgrades, repeated over several years, have lowered the protocol-risk premium visible in long-term token pricing.\n\nThe roadmap, predictably, continues. The next milestone is targeted for early next year.",
+    "category": "crypto",
+    "tags": ["ethereum", "l2", "infrastructure"],
+    "publisherId": "p8",
+    "authorName": "Rin Sato",
+    "imageUrl": "https://picsum.photos/seed/a18/1200/720",
+    "publishedAt": "2026-06-05T19:20:00Z",
+    "readingMinutes": 4,
+    "sentiment": "positive",
+    "biasScore": 0.05,
+    "language": "en",
+    "likes": 1410,
+    "views": 39008
+  },
+  {
+    "id": "a19",
+    "slug": "remote-work-hybrid-becomes-default",
+    "title": "Hybrid is now the dominant work model, large survey finds",
+    "summary": "A survey of two thousand large employers finds hybrid arrangements have become the default for knowledge work.",
+    "bulletSummary": [
+      "61% of large employers operate hybrid by default.",
+      "Three days in office is the most common pattern.",
+      "Productivity self-reports remain mixed.",
+      "Real estate decisions lag behind policy."
+    ],
+    "keyTakeaways": [
+      "The 'return to office' debate has settled into a hybrid equilibrium.",
+      "Real estate footprints have not yet caught up to attendance reality.",
+      "Manager training matters more than the policy specifics."
+    ],
+    "body": "A survey of two thousand large employers across multiple sectors finds that hybrid working arrangements are now the default for knowledge work, with sixty-one percent of respondents operating hybrid by policy. The most common pattern is three days in office per week, typically anchored on Tuesday through Thursday.\n\nThe long-running 'return to office' debate has, by this measure, settled into a hybrid equilibrium. Maximalist positions on either side — full remote or full office — exist but are now distinctly minority preferences.\n\nProductivity self-reports remain mixed and notoriously hard to interpret. Managers tend to rate office-based productivity higher; individual contributors tend to rate hybrid productivity higher. Reconciling those views has become its own management challenge.\n\nReal estate decisions lag behind policy. Many large employers signed long leases before the shift was clear and are now subletting or restructuring. Office utilization metrics show consistent under-use on Mondays and Fridays even at otherwise busy campuses.\n\nThe survey authors argue manager training matters more than the precise policy. The same three-day policy can feel collaborative or coercive depending on how it's implemented.",
+    "category": "business",
+    "tags": ["work", "remote", "hybrid"],
+    "publisherId": "p3",
+    "authorName": "Anika Joshi",
+    "imageUrl": "https://picsum.photos/seed/a19/1200/720",
+    "publishedAt": "2026-06-04T11:00:00Z",
+    "readingMinutes": 4,
+    "sentiment": "neutral",
+    "biasScore": 0.0,
+    "language": "en",
+    "likes": 1502,
+    "views": 41203
+  },
+  {
+    "id": "a20",
+    "slug": "early-stage-ai-tools-classroom",
+    "title": "Early data on AI tutors in K-12 classrooms shows promise and caveats",
+    "summary": "Pilot studies show meaningful gains in math when AI tutors are used as supplements rather than replacements.",
+    "bulletSummary": [
+      "Math gains of 0.3-0.5 standard deviations in pilots.",
+      "Reading gains smaller and less consistent.",
+      "Teacher buy-in is the strongest predictor.",
+      "Implementation costs remain high."
+    ],
+    "keyTakeaways": [
+      "Effect sizes in math are real but heterogeneous.",
+      "Supplement, not replacement — the framing matters for adoption.",
+      "Teacher training and curriculum integration drive most variance."
+    ],
+    "body": "Early data from several pilot programs deploying AI tutoring tools in K-12 classrooms show meaningful learning gains, particularly in math, when the tools are used as supplements to traditional instruction rather than replacements. Reading gains are smaller and less consistent.\n\nAcross the strongest-performing pilots, math gains landed in the range of three to five tenths of a standard deviation — a meaningful effect by education-research standards, though one that has historically been hard to scale. Teacher buy-in turned out to be the strongest predictor of whether a given school saw gains.\n\n'The technology is necessary but not sufficient,' one pilot director said. 'Schools where teachers integrated the tool into lesson plans saw the effects. Schools where it was bolted on as homework saw nothing.'\n\nImplementation costs remain high. Devices, connectivity, and especially teacher professional development add up. Several districts have asked vendors for outcome-based pricing that would tie costs to demonstrated learning gains.\n\nThe field is still early. Even the most enthusiastic pilots acknowledge that replicating results across diverse settings will be the real test.",
+    "category": "education",
+    "tags": ["edtech", "ai", "k12"],
+    "publisherId": "p1",
+    "authorName": "Karen Mwangi",
+    "imageUrl": "https://picsum.photos/seed/a20/1200/720",
+    "publishedAt": "2026-06-03T07:50:00Z",
+    "readingMinutes": 4,
+    "sentiment": "positive",
+    "biasScore": 0.1,
+    "language": "en",
+    "likes": 902,
+    "views": 24001
+  },
+  {
+    "id": "a21",
+    "slug": "neighborhood-park-reopens-redesigned",
+    "title": "Beloved neighborhood park reopens with full redesign",
+    "summary": "After two years of construction, the redesigned park reopens with new play areas, accessibility upgrades, and native plantings.",
+    "bulletSummary": [
+      "Fully accessible play structures.",
+      "Native-plant landscaping replaces lawn.",
+      "Community input shaped final design.",
+      "Maintenance budget secured for five years."
+    ],
+    "keyTakeaways": [
+      "Long community engagement processes can produce strong outcomes.",
+      "Accessibility was treated as foundational, not added on.",
+      "Funding maintenance up front is what makes these projects last."
+    ],
+    "body": "A beloved neighborhood park reopened this weekend after two years of construction, with a full redesign that adds fully accessible play structures, replaces conventional lawn with native plantings, and reroutes paths for safer pedestrian flow. Community input shaped most of the major decisions through a two-year engagement process.\n\nOrganizers credit the strong outcome to that engagement: rather than presenting a finished design and inviting comment, the project iterated through neighborhood workshops over months. Several features residents asked for early — quiet seating zones, a small plaza for older kids — survived to the final design.\n\nAccessibility was treated as foundational rather than added on. The play structures meet a higher standard than minimums require; pathways accommodate wheelchairs, strollers, and mobility devices throughout. Designers said this approach actually simplified construction.\n\nMaintenance funding is secured for five years through a dedicated line item that survived two budget cycles. Park advocates note that the long-term success of projects like this is usually decided by whether maintenance dollars hold up after the ribbon-cutting.\n\nThe community turned out in force for the opening day, with a small festival and what one organizer called 'an unreasonable amount of cake.'",
+    "category": "local",
+    "tags": ["parks", "community"],
+    "publisherId": "p1",
+    "authorName": "Rachel Whitfield",
+    "imageUrl": "https://picsum.photos/seed/a21/1200/720",
+    "publishedAt": "2026-06-02T14:15:00Z",
+    "readingMinutes": 3,
+    "sentiment": "positive",
+    "biasScore": 0.0,
+    "language": "en",
+    "likes": 612,
+    "views": 11201
+  },
+  {
+    "id": "a22",
+    "slug": "trade-talks-resume-key-sectors",
+    "title": "Trade talks resume with focus on critical mineral supply chains",
+    "summary": "After a six-month pause, trade negotiators reopened talks centered on critical mineral supply and processing.",
+    "bulletSummary": [
+      "Talks resumed after six-month pause.",
+      "Focus narrowed to critical minerals.",
+      "Processing capacity is the key concession point.",
+      "Timeline targets a framework by year-end."
+    ],
+    "keyTakeaways": [
+      "Narrow scope improves the chance of a deliverable agreement.",
+      "Processing capacity, not extraction, is the binding constraint.",
+      "Year-end is ambitious but possible if technical teams meet weekly."
+    ],
+    "body": "After a six-month pause, trade negotiators have resumed talks with a narrowed focus on critical mineral supply chains. The previous round had attempted a broader framework and stalled on three unrelated issues; this round is structured to deliver something concrete on a tightly scoped topic.\n\nProcessing capacity has emerged as the key concession point. Extraction is now widely understood as less constrained than the refining and intermediate-product capacity that turns ore into usable input. Negotiators say that recognition is shaping the proposed package.\n\nThe target is a framework agreement by year-end. Veteran trade negotiators describe the timeline as ambitious but feasible, contingent on technical teams meeting weekly through the summer and resolving definitions that have tripped previous talks.\n\nIndustry input is being managed through structured consultations rather than open hearings, a process that has irritated some advocates but appears to be keeping the talks on schedule.\n\nIf an agreement lands by year-end, implementing legislation in capitals will set the real pace. The next election cycle in two of the participating countries hangs over those plans.",
+    "category": "politics",
+    "tags": ["trade", "minerals"],
+    "publisherId": "p1",
+    "authorName": "Sarah Doyle",
+    "imageUrl": "https://picsum.photos/seed/a22/1200/720",
+    "publishedAt": "2026-06-01T09:00:00Z",
+    "readingMinutes": 4,
+    "sentiment": "neutral",
+    "biasScore": 0.0,
+    "language": "en",
+    "likes": 480,
+    "views": 14021
+  },
+  {
+    "id": "a23",
+    "slug": "browser-engine-major-update",
+    "title": "Major browser update lands long-awaited performance overhaul",
+    "summary": "A new browser release rewrites a core scheduling component, with measurable improvements on real-world pages.",
+    "bulletSummary": [
+      "Median page-load time down 12%.",
+      "Memory usage on heavy tabs down 18%.",
+      "Web platform features added on schedule.",
+      "Update rollout is staged."
+    ],
+    "keyTakeaways": [
+      "Performance wins on real pages, not just synthetic benchmarks, are increasingly rare.",
+      "Memory wins matter most on lower-end devices.",
+      "Staged rollouts reduce the blast radius of regressions."
+    ],
+    "body": "A widely used browser shipped a major update this week that rewrites a core scheduling component long blamed for inconsistent performance on heavy pages. Internal data show median page-load time down twelve percent and memory usage on heavy tabs down eighteen percent on real-world workloads.\n\nPerformance wins of this size on real pages — as opposed to synthetic benchmarks — have become unusual. The update lands after roughly eighteen months of internal experiments and several intermediate releases that prepared the ground.\n\nThe memory improvements matter most on lower-end devices, where heavy tabs can be the difference between a usable browser and a frustrating one. Users on entry-level hardware are expected to see the largest practical benefit.\n\nWeb platform feature additions continued on schedule alongside the engine work. The change set is large but covered by an unusually extensive automated test suite developed during the rewrite.\n\nRollout is staged. Most users will see the update over the next two weeks; some enterprise channels will see it later.",
+    "category": "technology",
+    "tags": ["browser", "performance"],
+    "publisherId": "p2",
+    "authorName": "Felix Strom",
+    "imageUrl": "https://picsum.photos/seed/a23/1200/720",
+    "publishedAt": "2026-05-31T16:00:00Z",
+    "readingMinutes": 3,
+    "sentiment": "positive",
+    "biasScore": 0.0,
+    "language": "en",
+    "likes": 1980,
+    "views": 50213
+  },
+  {
+    "id": "a24",
+    "slug": "corporate-bond-spreads-tighten",
+    "title": "Corporate bond spreads tighten to multi-year lows",
+    "summary": "Investment-grade spreads narrowed to their tightest level in three years, driven by strong demand and limited supply.",
+    "bulletSummary": [
+      "IG spreads at three-year lows.",
+      "Issuance trailing demand by a wide margin.",
+      "High-yield spreads also tighter but less so.",
+      "Some strategists warn on complacency."
+    ],
+    "keyTakeaways": [
+      "Tight spreads compensate less for default risk than usual.",
+      "Supply, not demand, is the active variable.",
+      "Strategists are divided on whether tightness can persist."
+    ],
+    "body": "Investment-grade corporate bond spreads tightened to their narrowest level in three years this week, driven by strong demand from yield-seeking buyers and a notable shortfall in issuance relative to that demand. High-yield spreads also tightened, though less dramatically.\n\nWith spreads this tight, investors are compensated relatively little for taking on default risk. Several strategists have started warning clients about the asymmetry; one widely circulated note this week argued the current environment is 'pricing in a soft landing that hasn't fully arrived yet.'\n\nSupply rather than demand is doing most of the work. Treasurers have been opportunistic but have not flooded the market. A handful of issuers known for pulling forward issuance have been quiet, which one banker called 'a deliberate choice to preserve scarcity.'\n\nWhether this persists depends on whether issuance volume picks up over the summer. The historical pattern suggests it will; the present pattern suggests caution.\n\nFor investors, the dilemma is familiar: hold cash and miss carry, or chase tight spreads and risk a snap-back. Most are doing some of each.",
+    "category": "finance",
+    "tags": ["bonds", "credit", "markets"],
+    "publisherId": "p10",
+    "authorName": "Manuel Ortega",
+    "imageUrl": "https://picsum.photos/seed/a24/1200/720",
+    "publishedAt": "2026-05-30T17:30:00Z",
+    "readingMinutes": 4,
+    "sentiment": "neutral",
+    "biasScore": -0.05,
+    "language": "en",
+    "likes": 410,
+    "views": 13042
+  },
+  {
+    "id": "a25",
+    "slug": "startup-ipo-strong-debut",
+    "title": "Long-awaited software IPO debuts strongly, opens the window",
+    "summary": "A profitable enterprise software company priced above range and traded sharply higher on its first day, reviving hopes for the IPO window.",
+    "bulletSummary": [
+      "Priced above range, traded 38% higher on day one.",
+      "Revenue growth 41% year-over-year.",
+      "Several peers update S-1s within hours.",
+      "Lock-up expirations staggered."
+    ],
+    "keyTakeaways": [
+      "The bar to open the IPO window is profitability plus growth, not growth alone.",
+      "Peers will move quickly to follow when one strong deal lands.",
+      "Lock-up structure shapes post-IPO supply dynamics."
+    ],
+    "body": "A profitable enterprise software company priced its IPO above the marketed range on Tuesday evening and opened up sharply on Wednesday morning, closing the first day thirty-eight percent above the offering price. For the venture and IPO ecosystem, the debut is being read as the most credible signal yet that the long-frozen window may finally be open.\n\nThe company's financial profile — forty-one percent year-over-year revenue growth and meaningful profitability — has become the implicit bar for a successful debut. Growth alone, the lesson of the last two years, is no longer enough.\n\nWithin hours of pricing, several peers updated their S-1 filings, a sign that the underwriting community had been waiting for a marker to set the tape. Three more deals are expected to price within the next month.\n\nLock-up expirations are staggered over six and twelve months, a structure designed to manage post-IPO supply dynamics. Investors on the long side say they appreciate the discipline.\n\nFor founders watching from companies that have been waiting two or more years to list, the debut is the most concrete reason for optimism they've had in some time.",
+    "category": "startups",
+    "tags": ["ipo", "software"],
+    "publisherId": "p9",
+    "authorName": "Henrik Lindberg",
+    "imageUrl": "https://picsum.photos/seed/a25/1200/720",
+    "publishedAt": "2026-05-29T22:00:00Z",
+    "readingMinutes": 4,
+    "sentiment": "positive",
+    "biasScore": 0.1,
+    "language": "en",
+    "likes": 1730,
+    "views": 42201
+  },
+  {
+    "id": "a26",
+    "slug": "wildfire-season-early-start",
+    "title": "Wildfire season starts unusually early in two western states",
+    "summary": "Two large wildfires broke containment lines this week, beginning what officials warn will be a difficult season.",
+    "bulletSummary": [
+      "Two fires exceeded 10,000 acres this week.",
+      "Drought conditions worse than five-year average.",
+      "Federal resources pre-positioned earlier than usual.",
+      "Evacuations affected three communities."
+    ],
+    "keyTakeaways": [
+      "Earlier starts shorten the window for prescribed-burn preparation.",
+      "Resource pre-positioning reflects a learned lesson from recent seasons.",
+      "Climate-attribution work is increasingly fast and integrated into press cycles."
+    ],
+    "body": "Two large wildfires broke containment lines in western states this week, beginning what state and federal officials warn will be a difficult season. Both fires exceeded ten thousand acres before crews regained partial control; evacuations affected three communities.\n\nDrought conditions through the spring were worse than the five-year average, drying fuels and shortening the window for prescribed-burn preparation that crews rely on. Federal resources have been pre-positioned earlier than usual, a reflection of lessons from recent seasons.\n\nClimate-attribution work has become quick enough to feed into early press cycles. Researchers cautioned that single events cannot be attributed in isolation but said the conditions enabling these fires are consistent with the trajectory captured in published models.\n\nFor residents in evacuation zones, the practical questions are immediate: where to stay, when to return, what to do about livestock and pets. Local nonprofits coordinated shelter and supplies through familiar channels.\n\nForecasters expect dry conditions to persist through the next two weeks, with limited natural relief in sight.",
+    "category": "world",
+    "tags": ["wildfire", "climate"],
+    "publisherId": "p1",
+    "authorName": "Carmen Aldana",
+    "imageUrl": "https://picsum.photos/seed/a26/1200/720",
+    "publishedAt": "2026-05-28T20:00:00Z",
+    "readingMinutes": 4,
+    "sentiment": "negative",
+    "biasScore": 0.0,
+    "language": "en",
+    "likes": 822,
+    "views": 23110
+  },
+  {
+    "id": "a27",
+    "slug": "wearable-detects-arrhythmia-early",
+    "title": "Wearable algorithm detects rare arrhythmia weeks before symptoms",
+    "summary": "A peer-reviewed study shows a consumer wearable's algorithm flagged a rare arrhythmia weeks before patients experienced symptoms.",
+    "bulletSummary": [
+      "Detection averaged 26 days before symptoms.",
+      "Positive predictive value above 80% in the cohort.",
+      "Study population was self-selected and skewed.",
+      "Regulatory pathway being explored."
+    ],
+    "keyTakeaways": [
+      "Early warning may translate to better outcomes if patients act on alerts.",
+      "Selection bias limits how broadly the result generalizes.",
+      "Regulatory clarity is the next major step."
+    ],
+    "body": "A consumer wearable's algorithm flagged a rare arrhythmia in study participants an average of twenty-six days before symptoms developed, according to a peer-reviewed paper published this week. Positive predictive value across the cohort exceeded eighty percent — high enough to be clinically interesting.\n\nThe authors acknowledge selection bias. Wearable users skew younger, healthier, and more health-conscious than the general population, which complicates how broadly the result generalizes. A confirmatory study in a more representative population is planned.\n\nClinicians who reviewed the results described the early-warning signal as 'genuinely useful' if patients act on it. The link from notification to clinical follow-up to outcome is multi-step, and historical experience with consumer health tools shows the chain can break at any point.\n\nThe device manufacturer is exploring a regulatory pathway that would let the algorithm be marketed as a screening tool. That process will take time and will require evidence beyond what this study provides.\n\nFor consumers wondering whether their device might do something similar, the honest answer is: not yet, and not without further work.",
+    "category": "health",
+    "tags": ["wearables", "cardiology"],
+    "publisherId": "p7",
+    "authorName": "Iris Vermeer",
+    "imageUrl": "https://picsum.photos/seed/a27/1200/720",
+    "publishedAt": "2026-05-27T10:30:00Z",
+    "readingMinutes": 4,
+    "sentiment": "positive",
+    "biasScore": 0.05,
+    "language": "en",
+    "likes": 1305,
+    "views": 31092
+  },
+  {
+    "id": "a28",
+    "slug": "stablecoin-policy-framework",
+    "title": "Stablecoin policy framework clears a key committee",
+    "summary": "After years of discussion, a stablecoin oversight framework cleared a key legislative committee with bipartisan support.",
+    "bulletSummary": [
+      "Bipartisan committee vote: 22-3.",
+      "Bank-style reserves required.",
+      "Dual federal and state pathways preserved.",
+      "Floor consideration expected next month."
+    ],
+    "keyTakeaways": [
+      "Bipartisan support is the headline; floor math is more uncertain.",
+      "Dual pathways were the key compromise.",
+      "Issuers will need real reserves; some current products will not qualify."
+    ],
+    "body": "A stablecoin oversight framework cleared a key legislative committee this week with bipartisan support, advancing a process that had stalled for years. The vote was twenty-two to three, with members of both parties praising the compromise structure.\n\nThe framework requires bank-style reserves for qualifying stablecoins, a long-resisted concession from parts of the industry that previously argued for lighter-touch rules. In exchange, the bill preserves dual federal and state regulatory pathways, allowing state-chartered issuers to continue under their existing supervisors so long as standards are met.\n\nNot all current products would qualify under the proposed standards. Industry analysts expect a meaningful contraction in the number of stablecoin issuers, with consolidation toward the few that can meet the reserve and audit requirements.\n\nFloor consideration is expected next month. The committee math is favorable; floor math is more uncertain. Two senators who supported a similar bill last year have signaled reservations about specific provisions.\n\nIf the framework passes, implementing rules will take roughly a year to write, leaving the industry with a clearer but still evolving regulatory horizon.",
+    "category": "crypto",
+    "tags": ["stablecoin", "regulation"],
+    "publisherId": "p8",
+    "authorName": "Devika Iyer",
+    "imageUrl": "https://picsum.photos/seed/a28/1200/720",
+    "publishedAt": "2026-05-26T18:45:00Z",
+    "readingMinutes": 4,
+    "sentiment": "positive",
+    "biasScore": 0.05,
+    "language": "en",
+    "likes": 1090,
+    "views": 28032
+  },
+  {
+    "id": "a29",
+    "slug": "rocket-launches-record-pace",
+    "title": "Rocket launches hit a record pace as smallsat constellations expand",
+    "summary": "Global orbital launches set a new quarterly record, driven by smallsat constellation expansion and reusable boosters.",
+    "bulletSummary": [
+      "Quarterly launch record set.",
+      "Smallsat payloads dominate manifests.",
+      "Reusable boosters did the majority of flights.",
+      "Range and traffic management strain visible."
+    ],
+    "keyTakeaways": [
+      "Reusability is the structural enabler; smallsats are the demand driver.",
+      "Range scheduling is becoming a bottleneck.",
+      "Constellation maintenance demand is sustained, not bursty."
+    ],
+    "body": "Global orbital launches set a new quarterly record, driven by smallsat constellation expansion and continued maturation of reusable boosters. The majority of flights were conducted by reusable first stages, with several boosters logging their tenth or higher flights.\n\nDemand is being driven by smallsat operators rebuilding and expanding constellations whose first generations are reaching planned replacement age. Maintenance demand is structural rather than bursty — operators need a steady stream of launches indefinitely.\n\nRange scheduling and traffic management strain is increasingly visible. Launch sites are working through schedules that would have been unimaginable a few years ago, and air traffic coordination has had to evolve in step. Industry groups are advocating for additional range infrastructure.\n\nFor satellite operators, the launch market is the healthiest it has been. Pricing remains competitive, slots are increasingly available, and reliability data continues to improve.\n\nThe next quarter is expected to set another record. The medium-term constraint is no longer rocket supply but launch infrastructure on the ground.",
+    "category": "science",
+    "tags": ["space", "rockets", "smallsats"],
+    "publisherId": "p6",
+    "authorName": "Mateus Carvalho",
+    "imageUrl": "https://picsum.photos/seed/a29/1200/720",
+    "publishedAt": "2026-05-25T13:10:00Z",
+    "readingMinutes": 4,
+    "sentiment": "positive",
+    "biasScore": 0.0,
+    "language": "en",
+    "likes": 2402,
+    "views": 60322
+  },
+  {
+    "id": "a30",
+    "slug": "music-festival-record-attendance",
+    "title": "Iconic music festival posts record attendance after redesign",
+    "summary": "Improved layout, expanded transit, and a stronger lineup combined for record attendance at an iconic festival.",
+    "bulletSummary": [
+      "Attendance up 22% over prior peak.",
+      "New transit partnership cut wait times.",
+      "Lineup balanced legacy and emerging acts.",
+      "Sustainability initiatives expanded."
+    ],
+    "keyTakeaways": [
+      "Operational improvements compound with lineup quality.",
+      "Transit partnerships are an under-appreciated festival lever.",
+      "Sustainability is becoming a competitive differentiator at festivals."
+    ],
+    "body": "An iconic music festival posted record attendance this weekend, up twenty-two percent over its previous peak, after a multi-year redesign of layout, transit, and programming. Operational improvements compounded with a strong lineup that balanced legacy headliners and emerging acts.\n\nThe new transit partnership was an under-appreciated lever. Earlier last-bus times and expanded service options shortened in-and-out times that had defined complaints in previous years. Local officials credited the partnership with reducing surface traffic in the surrounding neighborhoods.\n\nSustainability initiatives expanded again this year. Single-use plastics are now functionally absent from the main venues; on-site composting handled a significant share of food waste. Several large festivals are taking notes; the model is becoming a competitive differentiator.\n\nProgramming retained the balance of legacy and emerging acts that has defined the festival's identity. Late-night stages featured more electronic and global music than previous years, a deliberate choice that drove some of the attendance growth.\n\nFor regulars, the changes were noticeable but felt continuous with the festival's character — the hardest balance any large event has to strike.",
+    "category": "entertainment",
+    "tags": ["music", "festivals"],
+    "publisherId": "p5",
+    "authorName": "Rita Bellamy",
+    "imageUrl": "https://picsum.photos/seed/a30/1200/720",
+    "publishedAt": "2026-05-24T23:15:00Z",
+    "readingMinutes": 3,
+    "sentiment": "positive",
+    "biasScore": 0.0,
+    "language": "en",
+    "likes": 3801,
+    "views": 79122
+  },
+  {
+    "id": "a31",
+    "slug": "phone-maker-launches-flagship",
+    "title": "Phone maker launches flagship with on-device AI focus",
+    "summary": "A major phone maker shipped its newest flagship with on-device AI features as the marquee selling point.",
+    "bulletSummary": [
+      "New chip dedicates more area to AI.",
+      "Several features run fully on-device.",
+      "Battery life improved despite added workload.",
+      "Pricing held flat year-over-year."
+    ],
+    "keyTakeaways": [
+      "On-device AI is the new flagship axis of competition.",
+      "Battery life improvements show silicon efficiency is keeping up.",
+      "Flat pricing in an inflationary environment is itself a feature."
+    ],
+    "body": "A major phone maker shipped its newest flagship this week with on-device AI features as the marquee selling point. A new chip dedicates substantially more silicon area to AI workloads, and several features that previously required server-side processing now run fully on-device.\n\nIndependent battery tests showed life improved year-over-year despite the added AI workload — a result the company credits to a new memory subsystem and scheduling improvements. The combination of more compute and longer battery is rare and notable.\n\nPricing was held flat year-over-year, an implicit message to customers that the feature set, not the price tag, is the upgrade story. In an environment where many product categories have raised prices, holding flat is itself a feature.\n\nReviewers split on the value of specific AI features, with consensus that the silicon foundation matters more than any single launch demo. The maker is expected to expand on-device features through software updates over the coming year.\n\nFor competitors, the message is direct: the next year of flagship competition will be measured in on-device AI capability and battery life as much as in cameras and displays.",
+    "category": "technology",
+    "tags": ["smartphone", "ai", "hardware"],
+    "publisherId": "p2",
+    "authorName": "Niko Pavlov",
+    "imageUrl": "https://picsum.photos/seed/a31/1200/720",
+    "publishedAt": "2026-05-23T14:00:00Z",
+    "readingMinutes": 4,
+    "sentiment": "positive",
+    "biasScore": 0.1,
+    "language": "en",
+    "likes": 2900,
+    "views": 70402
+  },
+  {
+    "id": "a32",
+    "slug": "olympics-bid-shortlist",
+    "title": "Olympic bid shortlist announced, three cities advance",
+    "summary": "The IOC narrowed the field for a future Games to three finalists, citing infrastructure readiness and sustainability plans.",
+    "bulletSummary": [
+      "Three cities advanced from a field of seven.",
+      "Infrastructure readiness was the leading criterion.",
+      "Sustainability plans weighted more heavily than past cycles.",
+      "Final selection vote next year."
+    ],
+    "keyTakeaways": [
+      "Existing venues advantage cities with prior Games experience.",
+      "Sustainability is increasingly a hard requirement, not a marketing add-on.",
+      "Final selection often hinges on geopolitics as much as merit."
+    ],
+    "body": "The International Olympic Committee narrowed the field for a future Games to three finalists this week, citing infrastructure readiness and sustainability plans as the dominant criteria. Seven cities had been in active consideration as of the start of the year.\n\nThe shortlist favors cities with extensive existing venue stock — a now-explicit IOC preference following the cost overruns of recent Games. Two of the three finalists could host with relatively modest new construction; the third would build more but has a strong public-transit backbone in place.\n\nSustainability plans were weighted more heavily than in past cycles. The IOC has tightened expectations around emissions, waste, and post-Games venue use. Bid teams that treated the topic as a marketing afterthought found themselves at a disadvantage.\n\nThe final selection vote is scheduled for next year. Bidders will spend the intervening months refining plans and lobbying member committees. As with any IOC vote, geopolitics often matters as much as the technical merits of the bids.\n\nFor cities that did not advance, the message was direct: existing venues and a credible sustainability plan are now table stakes.",
+    "category": "sports",
+    "tags": ["olympics", "bids"],
+    "publisherId": "p4",
+    "authorName": "Jana Polášek",
+    "imageUrl": "https://picsum.photos/seed/a32/1200/720",
+    "publishedAt": "2026-05-22T11:45:00Z",
+    "readingMinutes": 4,
+    "sentiment": "neutral",
+    "biasScore": 0.0,
+    "language": "en",
+    "likes": 612,
+    "views": 18201
+  },
+  {
+    "id": "a33",
+    "slug": "ai-music-label-deal",
+    "title": "Major label signs first AI-collaborated artist with disclosure rules",
+    "summary": "A major label signed its first artist whose process explicitly includes generative AI tools, alongside detailed disclosure provisions.",
+    "bulletSummary": [
+      "Contract requires per-track AI disclosure.",
+      "Catalog ownership rules updated.",
+      "Royalty splits include training-data attribution.",
+      "Industry guilds reacted cautiously."
+    ],
+    "keyTakeaways": [
+      "Disclosure is becoming a baseline industry expectation.",
+      "Training-data attribution is unresolved but being addressed contractually.",
+      "Adoption of these terms by other labels will determine how durable they are."
+    ],
+    "body": "A major label signed its first artist this week whose creative process explicitly includes generative AI tools, alongside contract provisions that detail when and how AI use must be disclosed. Industry observers described the deal as a template that other labels are likely to study closely.\n\nThe contract requires per-track AI disclosure, with categories distinguishing background ideation, structural elements, and audio elements. Catalog ownership rules were updated to clarify the artist's rights with respect to tools used during creation.\n\nA novel provision sets aside a portion of royalty splits for training-data attribution. The mechanism is imperfect — true attribution at scale is unsolved — but the contract specifies a fund that supports the relevant rights holders identifiable through existing licensing pools.\n\nGuilds reacted cautiously. The agreement does not resolve underlying questions about consent and compensation in training data, but it does establish a precedent that disclosure and contributory funds can coexist with mainstream label deals.\n\nWhether other majors adopt similar terms will shape how durable this template becomes. Several have indicated interest in reviewing the language.",
+    "category": "entertainment",
+    "tags": ["music", "ai", "labels"],
+    "publisherId": "p5",
+    "authorName": "Yara Sulaiman",
+    "imageUrl": "https://picsum.photos/seed/a33/1200/720",
+    "publishedAt": "2026-05-21T16:30:00Z",
+    "readingMinutes": 4,
+    "sentiment": "neutral",
+    "biasScore": 0.0,
+    "language": "en",
+    "likes": 1422,
+    "views": 30201
+  },
+  {
+    "id": "a34",
+    "slug": "rural-broadband-grants-disbursed",
+    "title": "Rural broadband grants begin large disbursement wave",
+    "summary": "A long-anticipated wave of rural broadband grant disbursements began this week, with construction starts planned across hundreds of communities.",
+    "bulletSummary": [
+      "First wave covers ~600 communities.",
+      "Fiber prioritized where economical.",
+      "Fixed wireless and satellite fill gaps.",
+      "Workforce shortages remain a constraint."
+    ],
+    "keyTakeaways": [
+      "Disbursement timing matters as much as headline totals.",
+      "Mixed-technology approach is the realistic path.",
+      "Workforce, not money, is now the binding constraint."
+    ],
+    "body": "A long-anticipated wave of rural broadband grant disbursements began this week, with construction starts planned across roughly six hundred communities. The disbursement marks the practical start of a program announced years ago but slow to translate into shovel-ready projects.\n\nFiber is being prioritized where the economics support it. In communities where fiber economics don't work, fixed wireless and low-Earth-orbit satellite are filling the gap. The mixed-technology approach has frustrated fiber advocates but reflects what's realistic on the ground.\n\nWorkforce shortages have emerged as a binding constraint. Skilled fiber technicians are in short supply, and several state programs have begun funding apprenticeships and trade-school pipelines specifically targeted at the buildout. Even so, schedules in several states are slipping by months.\n\nFor communities long without reliable broadband, the practical questions are immediate: when does construction reach my street, and how much will service cost when it arrives. State public utility commissions are working through both.\n\nThis wave is the first of several. The next is expected by year-end.",
+    "category": "business",
+    "tags": ["broadband", "infrastructure", "rural"],
+    "publisherId": "p3",
+    "authorName": "Bram Vandermeer",
+    "imageUrl": "https://picsum.photos/seed/a34/1200/720",
+    "publishedAt": "2026-05-20T09:50:00Z",
+    "readingMinutes": 4,
+    "sentiment": "positive",
+    "biasScore": 0.0,
+    "language": "en",
+    "likes": 730,
+    "views": 17220
+  },
+  {
+    "id": "a35",
+    "slug": "language-model-translates-low-resource",
+    "title": "New approach lifts machine translation for low-resource languages",
+    "summary": "A new technique substantially improves machine translation quality for languages with limited training data.",
+    "bulletSummary": [
+      "Quality gains across 40 low-resource languages.",
+      "Approach uses cross-lingual transfer effectively.",
+      "Human evaluation matches automated metrics.",
+      "Compute requirements remain modest."
+    ],
+    "keyTakeaways": [
+      "Low-resource translation has been a long-standing weakness.",
+      "Modest compute requirements are good for community deployment.",
+      "Human evaluation matching metrics is encouraging."
+    ],
+    "body": "A new technique substantially improves machine translation quality for languages with limited training data, according to a paper released this week. Gains were observed across forty low-resource languages, with human evaluation matching automated metrics — a rarer outcome than it should be.\n\nThe approach uses cross-lingual transfer more effectively than previous methods, leveraging structural patterns from high-resource languages to improve performance on related low-resource ones. Compute requirements remained modest, an important consideration for community-led deployments in regions without large infrastructure budgets.\n\nLow-resource translation has been a long-standing weakness in the field. Most translation quality gains in recent years have concentrated on languages that were already well-served. Methods that meaningfully shift the picture for under-served languages are unusual and important.\n\nLanguage communities themselves contributed substantially to evaluation, a structural choice the authors credit for the result holding up under human review. Future work plans to expand the language list and incorporate dialectal variation.\n\nFor speakers of these languages, the practical benefit will depend on deployment. The technical breakthrough is necessary; productizing it is the next step.",
+    "category": "technology",
+    "tags": ["nlp", "translation", "research"],
+    "publisherId": "p2",
+    "authorName": "Aluna Kessler",
+    "imageUrl": "https://picsum.photos/seed/a35/1200/720",
+    "publishedAt": "2026-05-19T12:00:00Z",
+    "readingMinutes": 4,
+    "sentiment": "positive",
+    "biasScore": 0.0,
+    "language": "en",
+    "likes": 1210,
+    "views": 27801
+  },
+  {
+    "id": "a36",
+    "slug": "small-business-survey-optimism",
+    "title": "Small business survey shows return of cautious optimism",
+    "summary": "Quarterly small business survey ticked up on hiring and capex intentions while flagging persistent cost pressures.",
+    "bulletSummary": [
+      "Hiring intentions at a two-year high.",
+      "Capex intentions also higher.",
+      "Input costs remain elevated.",
+      "Credit availability improved modestly."
+    ],
+    "keyTakeaways": [
+      "Cautious optimism, not exuberance.",
+      "Cost pressures continue to bite even as activity firms.",
+      "Credit improvements are sector-dependent."
+    ],
+    "body": "The quarterly small business survey ticked up across several forward-looking measures, with hiring intentions reaching a two-year high and capex intentions also higher than a quarter ago. The overall tone is one of cautious optimism rather than exuberance.\n\nInput costs remain elevated. Respondents continued to flag costs as their primary concern, particularly in food service and construction-adjacent sectors. Sales price increases have been harder to push through, compressing margins.\n\nCredit availability improved modestly, but the improvement is sector-dependent. Service businesses with stable cash flows report easier access; capital-intensive small manufacturers continue to describe a tighter environment.\n\nHiring intentions are particularly notable given how persistent labor concerns have been. Small businesses have struggled to fill positions for years; the survey suggests that hiring efforts will continue even if the local market does not loosen.\n\nFor policymakers, the data is reassuring but unsettling — reassuring on activity, unsettling on cost pressures. Threading the two will be the work of the rest of the year.",
+    "category": "business",
+    "tags": ["small-business", "survey", "macro"],
+    "publisherId": "p3",
+    "authorName": "Daniel Brookes",
+    "imageUrl": "https://picsum.photos/seed/a36/1200/720",
+    "publishedAt": "2026-05-18T15:25:00Z",
+    "readingMinutes": 3,
+    "sentiment": "positive",
+    "biasScore": 0.05,
+    "language": "en",
+    "likes": 401,
+    "views": 12203
+  },
+  {
+    "id": "a37",
+    "slug": "vaccine-trial-malaria-results",
+    "title": "Next-generation malaria vaccine posts strong phase-3 results",
+    "summary": "A next-generation malaria vaccine showed higher efficacy than earlier products in a large phase-3 trial.",
+    "bulletSummary": [
+      "Efficacy above 75% in the trial cohort.",
+      "Manageable side-effect profile.",
+      "WHO review expected within months.",
+      "Manufacturing partnership announced."
+    ],
+    "keyTakeaways": [
+      "Efficacy at this level is meaningful for public health planning.",
+      "Manufacturing partnerships make rollout speed achievable.",
+      "Regional uptake depends on health-system integration."
+    ],
+    "body": "A next-generation malaria vaccine showed efficacy above seventy-five percent in a large phase-3 trial, with a manageable side-effect profile, according to results presented at an international health conference this week. The result is meaningfully higher than earlier products and substantially expands what's possible for public health planning.\n\nWHO review is expected within months. If the review proceeds quickly, the vaccine could be available in priority regions during the next high-burden season, with rollout speeds depending on manufacturing capacity and health-system integration.\n\nA manufacturing partnership announced alongside the results would substantially expand annual production capacity. The partnership combines the vaccine developer's intellectual property with manufacturing capacity in two regions, a structure now considered a near-requirement for vaccines targeting low- and middle-income markets.\n\nMosquito control and other interventions remain essential complements. Public health officials are emphatic that high vaccine efficacy is a powerful addition to the toolkit but not a replacement for the integrated programs that have driven recent progress.\n\nFor families in high-burden regions, the practical question is when the vaccine will be available in their clinics. The answer is sooner than it might have been a few years ago — but still depends on the work between now and then.",
+    "category": "health",
+    "tags": ["vaccine", "malaria", "global-health"],
+    "publisherId": "p7",
+    "authorName": "Adaeze Nwosu",
+    "imageUrl": "https://picsum.photos/seed/a37/1200/720",
+    "publishedAt": "2026-05-17T10:00:00Z",
+    "readingMinutes": 4,
+    "sentiment": "positive",
+    "biasScore": 0.0,
+    "language": "en",
+    "likes": 3210,
+    "views": 65003
+  },
+  {
+    "id": "a38",
+    "slug": "city-transit-fare-restructure",
+    "title": "City transit unveils fare restructure with caps and free transfers",
+    "summary": "City transit authority unveiled a fare overhaul featuring daily and monthly caps, free transfers, and reduced fares for low-income riders.",
+    "bulletSummary": [
+      "Daily and monthly fare caps introduced.",
+      "Free transfers across all modes.",
+      "Discounted fares for low-income riders.",
+      "Implementation phased over six months."
+    ],
+    "keyTakeaways": [
+      "Caps align fare structure with rider behavior.",
+      "Free transfers make the network feel more cohesive.",
+      "Means-tested discounts require careful enrollment design."
+    ],
+    "body": "The city transit authority unveiled a fare restructure this week that introduces daily and monthly caps, free transfers across all modes, and a discounted fare program for low-income riders. Implementation will be phased over six months as the back-end fare collection system rolls out.\n\nFare caps align the structure with how riders actually use the system. Pay as you go, but stop charging once you've hit what would be the cost of a day or month pass. Several other large cities have adopted similar structures with good results; riders report the policy is easier to understand than the old multi-pass world.\n\nFree transfers make the network feel more cohesive, particularly for riders whose trips cross multiple modes. The previous structure penalized exactly the kinds of trips the system most wants to encourage.\n\nMeans-tested discounts require careful enrollment design. The transit authority has partnered with social services agencies to streamline enrollment, drawing on lessons from similar programs elsewhere. Enrollment friction has historically been the main obstacle to uptake.\n\nFor regular riders, the changes should be noticeable within weeks. For occasional riders, the most visible change will be the free transfer.",
+    "category": "local",
+    "tags": ["transit", "fares"],
+    "publisherId": "p1",
+    "authorName": "Mira Chen",
+    "imageUrl": "https://picsum.photos/seed/a38/1200/720",
+    "publishedAt": "2026-05-16T08:30:00Z",
+    "readingMinutes": 4,
+    "sentiment": "positive",
+    "biasScore": 0.0,
+    "language": "en",
+    "likes": 524,
+    "views": 13088
+  },
+  {
+    "id": "a39",
+    "slug": "border-region-aid-package",
+    "title": "Border region aid package advances in multilateral talks",
+    "summary": "Multilateral talks advanced a humanitarian aid package targeted at a border region facing acute displacement pressures.",
+    "bulletSummary": [
+      "$1.8B humanitarian package targeted.",
+      "Three multilateral institutions co-funding.",
+      "Local NGO partnerships emphasized.",
+      "Independent monitoring built into design."
+    ],
+    "keyTakeaways": [
+      "Multilateral packages often work best with strong local partnerships.",
+      "Independent monitoring is now baseline for disbursement credibility.",
+      "Displacement pressures call for sustained rather than one-time response."
+    ],
+    "body": "Multilateral talks advanced a humanitarian aid package targeted at a border region facing acute displacement pressures, with three institutions co-funding a $1.8 billion package. The structure emphasizes local NGO partnerships and builds independent monitoring into the disbursement schedule.\n\nMultilateral packages often work best when paired with strong local partnerships, and the design reflects that lesson. Local organizations with existing relationships in affected communities will lead distribution; the multilateral institutions will provide funding, technical capacity, and accountability infrastructure.\n\nIndependent monitoring has become baseline for disbursement credibility. Past packages without robust monitoring have faced criticism over diversion or under-delivery; the present design attempts to address those concerns up front.\n\nDisplacement pressures call for sustained rather than one-time response. The package includes provisions for renewal subject to performance review, an attempt to balance the political appetite for a one-time announcement with the operational reality of a multi-year challenge.\n\nFor families displaced by the underlying conditions, the practical impact depends on the speed with which funds translate into shelter, food, and medical care on the ground.",
+    "category": "world",
+    "tags": ["humanitarian", "displacement"],
+    "publisherId": "p1",
+    "authorName": "Layla Hadi",
+    "imageUrl": "https://picsum.photos/seed/a39/1200/720",
+    "publishedAt": "2026-05-15T14:50:00Z",
+    "readingMinutes": 4,
+    "sentiment": "neutral",
+    "biasScore": -0.05,
+    "language": "en",
+    "likes": 822,
+    "views": 20012
+  },
+  {
+    "id": "a40",
+    "slug": "schools-launch-civics-curriculum",
+    "title": "Schools launch revised civics curriculum after two-year review",
+    "summary": "Districts begin rolling out a revised civics curriculum that emphasizes media literacy, deliberation skills, and local government.",
+    "bulletSummary": [
+      "Curriculum revised after two-year review.",
+      "Media literacy emphasized throughout.",
+      "Deliberation skills built into assessments.",
+      "Local government component expanded."
+    ],
+    "keyTakeaways": [
+      "Media literacy is now treated as core, not enrichment.",
+      "Deliberation as a measurable skill is a meaningful shift.",
+      "Local government focus may shape student engagement long-term."
+    ],
+    "body": "Districts have begun rolling out a revised civics curriculum after a two-year review process that drew input from teachers, parents, civic organizations, and students. The revised curriculum emphasizes media literacy throughout, builds deliberation skills into assessments, and expands the component focused on local government.\n\nMedia literacy is now treated as core rather than enrichment. The shift reflects a recognition that students encounter contested information daily and benefit from systematic instruction in evaluating sources, distinguishing claims from evidence, and recognizing rhetorical patterns. Several skeptics of earlier curriculum drafts came around after seeing how the topic was integrated rather than siloed.\n\nDeliberation skills built into assessments are a meaningful shift. Students will be evaluated not only on what they know but on how they participate in structured discussions — listening, summarizing opposing views, and constructing arguments. Several pilot districts have shown the assessments are workable in practice.\n\nThe local government component expanded to give students more exposure to how decisions get made close to home — city councils, school boards, public utility commissions. Civics teachers have long argued these institutions are both more accessible and more influential than their classroom prominence has reflected.\n\nFor families, the practical change will be visible in homework, classroom discussions, and the kinds of projects students bring home. For civic life, the change will compound over years rather than weeks.",
+    "category": "education",
+    "tags": ["civics", "curriculum"],
+    "publisherId": "p1",
+    "authorName": "Joseph Adigwe",
+    "imageUrl": "https://picsum.photos/seed/a40/1200/720",
+    "publishedAt": "2026-05-14T11:30:00Z",
+    "readingMinutes": 4,
+    "sentiment": "positive",
+    "biasScore": 0.0,
+    "language": "en",
+    "likes": 612,
+    "views": 14893
+  }
+]

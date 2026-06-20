@@ -1,0 +1,45 @@
+[
+  {
+    "id": "n1",
+    "type": "breaking",
+    "title": "Breaking: Sweeping climate pact signed",
+    "body": "92 nations have signed a binding emissions pact at the global summit.",
+    "createdAt": "2026-06-18T09:20:00Z",
+    "read": false,
+    "articleId": "a1"
+  },
+  {
+    "id": "n2",
+    "type": "category",
+    "title": "Technology Daily",
+    "body": "Open-source AI tops a leading benchmark for the first time.",
+    "createdAt": "2026-06-18T14:10:00Z",
+    "read": false,
+    "articleId": "a2"
+  },
+  {
+    "id": "n3",
+    "type": "topic",
+    "title": "You follow: Markets",
+    "body": "Central bank holds rates steady but signals cuts ahead.",
+    "createdAt": "2026-06-17T20:35:00Z",
+    "read": true,
+    "articleId": "a3"
+  },
+  {
+    "id": "n4",
+    "type": "daily",
+    "title": "Daily Briefing — Thursday",
+    "body": "Five stories shaping your day, hand-picked for your interests.",
+    "createdAt": "2026-06-18T07:00:00Z",
+    "read": true
+  },
+  {
+    "id": "n5",
+    "type": "weekly",
+    "title": "Weekly Digest",
+    "body": "The biggest stories you may have missed this week.",
+    "createdAt": "2026-06-15T08:00:00Z",
+    "read": true
+  }
+]

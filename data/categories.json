@@ -1,0 +1,15 @@
+[
+  { "slug": "politics", "name": "Politics", "emoji": "🏛️", "color": "#ef4444" },
+  { "slug": "technology", "name": "Technology", "emoji": "💻", "color": "#2476ff" },
+  { "slug": "business", "name": "Business", "emoji": "📈", "color": "#16a34a" },
+  { "slug": "sports", "name": "Sports", "emoji": "⚽", "color": "#f97316" },
+  { "slug": "entertainment", "name": "Entertainment", "emoji": "🎬", "color": "#a855f7" },
+  { "slug": "science", "name": "Science", "emoji": "🔬", "color": "#06b6d4" },
+  { "slug": "health", "name": "Health", "emoji": "🩺", "color": "#ec4899" },
+  { "slug": "education", "name": "Education", "emoji": "🎓", "color": "#0ea5e9" },
+  { "slug": "finance", "name": "Finance", "emoji": "💰", "color": "#eab308" },
+  { "slug": "crypto", "name": "Crypto", "emoji": "🪙", "color": "#f59e0b" },
+  { "slug": "startups", "name": "Startups", "emoji": "🚀", "color": "#14b8a6" },
+  { "slug": "local", "name": "Local", "emoji": "📍", "color": "#84cc16" },
+  { "slug": "world", "name": "World", "emoji": "🌍", "color": "#6366f1" }
+]

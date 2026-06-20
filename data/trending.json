@@ -1,0 +1,9 @@
+[
+  { "topic": "Climate Pact", "category": "world", "articleIds": ["a1", "a26"] },
+  { "topic": "Open-Source AI", "category": "technology", "articleIds": ["a2", "a23", "a35"] },
+  { "topic": "Central Bank", "category": "finance", "articleIds": ["a3", "a24"] },
+  { "topic": "Fusion Energy", "category": "science", "articleIds": ["a4", "a15", "a29"] },
+  { "topic": "Premier League", "category": "sports", "articleIds": ["a5", "a14", "a32"] },
+  { "topic": "Streaming Deal", "category": "entertainment", "articleIds": ["a6", "a16", "a30", "a33"] },
+  { "topic": "Bitcoin ETFs", "category": "crypto", "articleIds": ["a8", "a18", "a28"] }
+]
